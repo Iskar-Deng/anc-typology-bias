@@ -1,0 +1,35 @@
+phenomenon	figure_stem	label	title
+1_1_intran_V_form	01_1_1_intran_V_form	fig:heatmap-1-intran-v-form	1.1 Intransitive finite verb form
+1_2_intran_S_marker	02_1_2_intran_S_marker	fig:heatmap-2-intran-s-marker	1.2 Intransitive S marker
+1_3_intran_SV_order	03_1_3_intran_SV_order	fig:heatmap-3-intran-sv-order	1.3 Intransitive S--V order
+1_4_tran_V_form	04_1_4_tran_V_form	fig:heatmap-4-tran-v-form	1.4 Transitive finite verb form
+1_5_tran_A_marker	05_1_5_tran_A_marker	fig:heatmap-5-tran-a-marker	1.5 Transitive A marker
+1_6_tran_P_marker	06_1_6_tran_P_marker	fig:heatmap-6-tran-p-marker	1.6 Transitive P marker
+1_7_tran_AV_order	07_1_7_tran_AV_order	fig:heatmap-7-tran-av-order	1.7 Transitive A--V order
+1_8_tran_VP_order	08_1_8_tran_VP_order	fig:heatmap-8-tran-vp-order	1.8 Transitive V--P order
+1_9_intran_V_valency	09_1_9_intran_V_valency	fig:heatmap-9-intran-v-valency	1.9 Intransitive V valency
+1_10_tran_V_valency	10_1_10_tran_V_valency	fig:heatmap-10-tran-v-valency	1.10 Transitive V valency
+2_1_intran_gen_marker	11_2_1_intran_gen_marker	fig:heatmap-11-intran-gen-marker	2.1 Intransitive genitive marker
+2_2_tran_gen_marker	12_2_2_tran_gen_marker	fig:heatmap-12-tran-gen-marker	2.2 Transitive genitive marker
+2_3_gen_order	13_2_3_gen_order	fig:heatmap-13-gen-order	2.3 Genitive possessor--head order
+3_1_clausal_V_form	14_3_1_clausal_V_form	fig:heatmap-14-clausal-v-form	3.1 Clausal complement verb form
+3_2_clausal_S_marker	15_3_2_clausal_S_marker	fig:heatmap-15-clausal-s-marker	3.2 Clausal complement S marker
+3_3_clausal_A_marker	16_3_3_clausal_A_marker	fig:heatmap-16-clausal-a-marker	3.3 Clausal complement A marker
+3_4_clausal_P_marker	17_3_4_clausal_P_marker	fig:heatmap-17-clausal-p-marker	3.4 Clausal complement P marker
+3_5_clausal_comp_V_order	18_3_5_clausal_comp_V_order	fig:heatmap-18-clausal-comp-v-order	3.5 Clausal complement--V order
+3_6_clausal_CV_valency	19_3_6_clausal_CV_valency	fig:heatmap-19-clausal-cv-valency	3.6 Clausal complement CV valency
+4_1_anc_V_form	20_4_1_anc_V_form	fig:heatmap-20-anc-v-form	4.1 ANC verb form
+4_2_anc_S_marker	21_4_2_anc_S_marker	fig:heatmap-21-anc-s-marker	4.2 ANC S marker
+4_3_anc_A_marker	22_4_3_anc_A_marker	fig:heatmap-22-anc-a-marker	4.3 ANC A marker
+4_4_anc_P_marker	23_4_4_anc_P_marker	fig:heatmap-23-anc-p-marker	4.4 ANC P marker
+4_5_anc_SV_order	24_4_5_anc_SV_order	fig:heatmap-24-anc-sv-order	4.5 ANC S--V order
+4_6_anc_AV_order	25_4_6_anc_AV_order	fig:heatmap-25-anc-av-order	4.6 ANC A--V order
+4_7_anc_VP_order	26_4_7_anc_VP_order	fig:heatmap-26-anc-vp-order	4.7 ANC V--P order
+5_1_anc_ext_S_marker	27_5_1_anc_ext_S_marker	fig:heatmap-27-anc-ext-s-marker	5.1 ANC external S marker
+5_2_anc_ext_A_marker	28_5_2_anc_ext_A_marker	fig:heatmap-28-anc-ext-a-marker	5.2 ANC external A marker
+5_3_anc_ext_P_marker	29_5_3_anc_ext_P_marker	fig:heatmap-29-anc-ext-p-marker	5.3 ANC external P marker
+5_4_anc_ext_gen_marker	30_5_4_anc_ext_gen_marker	fig:heatmap-30-anc-ext-gen-marker	5.4 ANC external genitive marker
+6_1_anc_omit_S	31_6_1_anc_omit_S	fig:heatmap-31-anc-omit-s	6.1 ANC omitted S
+6_2_anc_omit_A	32_6_2_anc_omit_A	fig:heatmap-32-anc-omit-a	6.2 ANC omitted A
+6_3_anc_omit_P	33_6_3_anc_omit_P	fig:heatmap-33-anc-omit-p	6.3 ANC omitted P
+6_4_anc_omit_A_P	34_6_4_anc_omit_A_P	fig:heatmap-34-anc-omit-a-p	6.4 ANC omitted A+P

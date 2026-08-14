@@ -1,0 +1,201 @@
+source_id	source_uid	pair_id	good_stem	bad_stem	good_source	bad_source
+1	transitive	1	watch	scream	I watched the door.	I screamed the door.
+2	transitive	2	buy	weep	A student bought a sandwich.	A student wept a sandwich.
+3	transitive	3	argueabout	go	They argued about the plan.	They went the plan.
+4	transitive	4	tour	cope	Maya toured the museum.	Maya coped the museum.
+5	transitive	5	wear	slumpover	The guard wore a jacket.	The guard slumpped over a jacket.
+6	transitive	6	embarrass	scream	The mistake embarrassed Liam.	The mistake screamed Liam.
+7	transitive	48	criticize	fall	A reviewer criticized the film.	A reviewer fell the film.
+8	transitive	73	question	shrug	She questioned the witness.	She shrugged the witness.
+9	transitive	9	goto	smile	The family went to the beach.	The family smiled the beach.
+10	transitive	10	listento	react	I listened to the song.	I reacted the song.
+11	transitive	170	climbup	talk	A child climbed up the fence.	A child talked the fence.
+12	transitive	12	scan	murmur	The clerk scanned the ticket.	The clerk murmured the ticket.
+13	transitive	13	tour	cry	Tourists toured the castle.	Tourists cried the castle.
+14	transitive	14	insult	sigh	The guest insulted the host.	The guest sighed the host.
+15	transitive	35	escapefrom	weep	The prisoner escaped from the cell.	The prisoner wept the cell.
+16	transitive	16	investigate	go	A detective investigated the case.	A detective went the case.
+17	transitive	118	talkabout	go	We talked about the problem.	We went the problem.
+18	transitive	18	forget	murmur	He forgot the password.	He murmured the password.
+19	transitive	53	astound	boast	The result astounded everyone.	The result boasted everyone.
+20	transitive	150	kiss	fall	Nina kissed the baby.	Nina fell the baby.
+21	transitive	117	observe	laugh	The scientist observed the comet.	The scientist laughed the comet.
+22	transitive	29	explore	slumpover	They explored the island.	They slumpped over the island.
+23	transitive	23	remember	flirt	I remembered the address.	I flirted the address.
+24	transitive	187	describe	chuckle	The guide described the route.	The guide chuckled the route.
+25	transitive	25	goto	murmur	A couple went to the market.	A couple murmured the market.
+26	transitive	26	scan	concur	The nurse scanned the chart.	The nurse concurred the chart.
+27	transitive	27	fire	talk	The manager fired an employee.	The manager talked an employee.
+28	transitive	28	research	suffer	Students researched the topic.	Students suffered the topic.
+29	transitive	49	explore	compromise	The team explored the cave.	The team compromised the cave.
+30	transitive	36	distract	reply	The noise distracted the driver.	The noise replied the driver.
+31	transitive	32	escapefrom	talk	A cat escaped from the house.	A cat talked the house.
+32	transitive	101	runaround	scream	The dog ran around the yard.	The dog screamed the yard.
+33	transitive	173	examine	communicate	The doctor examined the patient.	The doctor communicated the patient.
+34	transitive	68	escapefrom	cry	The bird escaped from the cage.	The bird cried the cage.
+35	transitive	121	distract	disagree	The phone distracted me.	The phone disagreed me.
+36	transitive	37	admire	chuckle	Many readers admire the author.	Many readers chuckle the author.
+37	transitive	38	clean	wave	The cleaner cleaned the kitchen.	The cleaner waved the kitchen.
+38	transitive	39	like	go	I like the painting.	I go the painting.
+39	transitive	40	resemble	compromise	The boy resembles his uncle.	The boy compromises his uncle.
+40	transitive	41	sell	sigh	The shop sold fresh bread.	The shop sighed fresh bread.
+41	transitive	42	alarm	shout	The siren alarmed the crowd.	The siren shouted the crowd.
+42	transitive	164	notice	grin	She noticed a stain.	She grinned a stain.
+43	transitive	44	thinkabout	sigh	The analyst thought about the question.	The analyst sighed the question.
+44	transitive	74	heal	talk	The medicine healed the wound.	The medicine talked the wound.
+45	transitive	46	hurt	fall	The fall hurt him.	The fall fell him.
+46	transitive	47	know	react	They know the answer.	They react the answer.
+47	transitive	7	criticize	shrug	A critic criticized the play.	A critic shrugged the play.
+48	transitive	22	explore	weep	The children explored the garden.	The children wept the garden.
+49	transitive	114	embarrass	fall	The joke embarrassed Anna.	The joke fell Anna.
+50	transitive	61	skatearound	clash	The skater skated around the rink.	The skater clashed the rink.
+51	transitive	212	hire	nod	My uncle hired a driver.	My uncle nodded a driver.
+52	transitive	153	astound	disagree	The actor's speech astounded the audience.	The actor's speech disagreed the audience.
+53	transitive	54	irritate	rot	Her comment irritated the teacher.	Her comment rotted the teacher.
+54	transitive	55	arriveat	smile	The train's crew arrived at the station.	The train's crew smiled the station.
+55	transitive	56	shock	boast	Our report shocked the committee.	Our report boasted the committee.
+56	transitive	96	lift	wave	The worker's helper lifted the box.	The worker's helper waved the box.
+57	transitive	82	resemble	fall	Tom's daughter resembles the portrait.	Tom's daughter falls the portrait.
+58	transitive	132	praise	go	The coach's note praised the player.	The coach's note went the player.
+59	transitive	93	reveal	slumpover	Their study revealed a pattern.	Their study slumpped over a pattern.
+60	transitive	190	skatearound	scream	The girl's brother skated around the pond.	The girl's brother screamed the pond.
+61	transitive	33	runaround	smile	Ava's dog ran around the field.	Ava's dog smiled the field.
+62	transitive	63	question	confer	The lawyer's assistant questioned the suspect.	The lawyer's assistant conferred the suspect.
+63	transitive	166	disagreewith	boast	His partner disagreed with the mayor.	His partner boasted the mayor.
+64	transitive	67	runaround	fall	The runner's friend ran around the track.	The runner's friend fell the track.
+65	transitive	15	escapefrom	fall	The sailor's son escaped from the ship.	The sailor's son fell the ship.
+66	transitive	69	talkto	sigh	The visitor's child talked to the guide.	The visitor's child sighed the guide.
+67	transitive	70	discuss	lie	The professor's class discussed the article.	The professor's class lied the article.
+68	transitive	71	talkto	complain	Maria's father talked to the doctor.	Maria's father complained the doctor.
+69	transitive	72	admire	escape	The singer's fan admired the poster.	The singer's fan escaped the poster.
+70	transitive	8	question	wave	The officer's partner questioned the driver.	The officer's partner waved the driver.
+71	transitive	155	heal	struggle	Her therapist healed the injury.	Her therapist struggled the injury.
+72	transitive	75	sell	suffer	The vendor's wife sold the chair.	The vendor's wife suffered the chair.
+73	transitive	76	pass	cry	The courier's van passed the school.	The courier's van cried the school.
+74	transitive	77	discover	doaround	The intern's search discovered a clue.	The intern's search did around a clue.
+75	transitive	137	reference	scream	The author's footnote referenced the study.	The author's footnote screamed the study.
+76	transitive	79	scan	blink	The librarian's aide scanned the page.	The librarian's aide blinked the page.
+77	transitive	80	worry	chat	The neighbor's dog worried the cat.	The neighbor's dog chatted the cat.
+78	transitive	197	hat	grin	My sister hated the smell.	My sister grinned the smell.
+79	transitive	58	resemble	testify	The baby's face resembled the doll.	The baby's face testified the doll.
+80	transitive	83	upset	fall	The judge's decision upset the crowd.	The judge's decision fell the crowd.
+81	transitive	84	attack	cooperate	The soldier's unit attacked the fort.	The soldier's unit cooperated the fort.
+82	transitive	86	buy	complain	Our cousin bought a lamp.	Our cousin complained a lamp.
+83	transitive	87	alarm	fall	The pilot's warning alarmed the passengers.	The pilot's warning fell the passengers.
+84	transitive	88	runaround	conspire	The child's pony ran around the barn.	The child's pony conspired the barn.
+85	transitive	89	complainabout	comehere	The tenant's letter complained about the rent.	The tenant's letter came here the rent.
+86	transitive	205	help	retaliate	The nurse's aide helped the patient.	The nurse's aide retaliated the patient.
+87	transitive	91	exit	scream	The actor's friend exited the theater.	The actor's friend screamed the theater.
+88	transitive	131	reveal	complain	The witness's statement revealed the truth.	The witness's statement complained the truth.
+89	transitive	94	talkto	chuckle	The manager's assistant talked to the client.	The manager's assistant chuckled the client.
+90	transitive	176	investigate	sigh	The agency's team investigated the accident.	The agency's team sighed the accident.
+91	transitive	107	lift	comehere	The mover's crew lifted the piano.	The mover's crew came here the piano.
+92	transitive	97	drop	comehere	The toddler's hand dropped the cup.	The toddler's hand came here the cup.
+93	transitive	98	sell	fall	The farmer's stall sold apples.	The farmer's stall fell apples.
+94	transitive	99	tour	litter	The student's group toured the campus.	The student's group littered the campus.
+95	transitive	113	discover	fall	The reporter's search discovered the file.	The reporter's search fell the file.
+96	transitive	62	runaround	mutter	The puppy's owner ran around the park.	The puppy's owner muttered the park.
+97	transitive	102	shock	comehere	The headline's tone shocked the reader.	The headline's tone came here the reader.
+98	transitive	104	tour	weep	The mayor's guests toured the library.	The mayor's guests wept the library.
+99	transitive	105	like	concur	The baby likes my scarf.	The baby concurs my scarf.
+100	transitive	109	carefor	jokearound	A doctor cares for the girl's father.	A doctor jokes around the girl's father.
+101	transitive	57	lift	slumpover	We lifted the child's stroller.	We slumpped over the child's stroller.
+102	transitive	90	help	shrug	The volunteer helped his neighbor.	The volunteer shrugged his neighbor.
+103	transitive	106	carefor	smile	The nurse cares for our grandmother.	The nurse smiles our grandmother.
+104	transitive	110	discuss	nod	They discussed the manager's proposal.	They nodded the manager's proposal.
+105	transitive	112	disturb	rot	The sound disturbed the baby's sleep.	The sound rotted the baby's sleep.
+106	transitive	100	discover	speakup	A scientist discovered the island's cave.	A scientist spoke up the island's cave.
+107	transitive	50	embarrass	concur	The photo embarrassed Maria's brother.	The photo concurred Maria's brother.
+108	transitive	145	boastabout	work	He boasted about his award.	He worked his award.
+109	transitive	116	looklike	fall	The statue looked like the king's face.	The statue fell the king's face.
+110	transitive	21	observe	grin	The guard observed the visitor's bag.	The guard grinned the visitor's bag.
+111	transitive	17	talkabout	reply	I talked about my schedule.	I replied my schedule.
+112	transitive	119	have	disagree	She has a teacher's book.	She disagrees a teacher's book.
+113	transitive	120	bore	scream	The lecture bored the students' parents.	The lecture screamed the students' parents.
+114	transitive	31	distract	comehere	The music distracted the driver's helper.	The music came here the driver's helper.
+115	transitive	123	break	work	The storm broke the farmer's fence.	The storm worked the farmer's fence.
+116	transitive	167	watch	suffer	We watched the baby's crib.	We suffered the baby's crib.
+117	transitive	125	biketo	work	The cyclist biked to his office.	The cyclist worked his office.
+118	transitive	126	bring	mutter	A courier brought the doctor's package.	A courier muttered the doctor's package.
+119	transitive	189	aggravate	fall	The delay aggravated the passenger's anger.	The delay fell the passenger's anger.
+120	transitive	128	shock	fall	The verdict shocked the lawyer's client.	The verdict fell the lawyer's client.
+121	transitive	129	clean	die	The janitor cleaned the principal's office.	The janitor died the principal's office.
+122	transitive	130	fleefrom	blink	The deer fled from the hunter's dog.	The deer blinked the hunter's dog.
+123	transitive	60	reveal	fish	The file revealed the company's loss.	The file fished the company's loss.
+124	transitive	59	praise	testify	The coach praised the team's captain.	The coach testified the team's captain.
+125	transitive	133	reveal	sigh	The test revealed the patient's allergy.	The test sighed the patient's allergy.
+126	transitive	127	aggravate	comehere	The noise aggravated the baby's cough.	The noise came here the baby's cough.
+127	transitive	135	fix	grin	The mechanic fixed my car.	The mechanic grinned my car.
+128	transitive	136	have	speakup	He has a neighbor's key.	He speaks up a neighbor's key.
+129	transitive	78	reference	compromise	The article referenced the professor's book.	The article compromised the professor's book.
+130	transitive	138	confuse	fall	The map confused the tourist's guide.	The map fell the tourist's guide.
+131	transitive	11	climbup	murmur	A worker climbed up the ship's ladder.	A worker murmured the ship's ladder.
+132	transitive	140	criticize	correspond	The editor criticized the writer's draft.	The editor corresponded the writer's draft.
+133	transitive	141	arriveat	complain	The bus arrived at the school's gate.	The bus complained the school's gate.
+134	transitive	142	discuss	shout	They discussed our plan.	They shouted our plan.
+135	transitive	184	kiss	escape	The mother kissed her son's forehead.	The mother escaped her son's forehead.
+136	transitive	24	describe	react	The witness described the suspect's coat.	The witness reacted the suspect's coat.
+137	transitive	115	boastabout	conspire	The athlete boasted about his medal.	The athlete conspired his medal.
+138	transitive	146	boycott	jokearound	Students boycotted the company's event.	Students joked around the company's event.
+139	transitive	214	bother	respond	The alarm bothered the dog's owner.	The alarm responded the dog's owner.
+140	transitive	148	remember	die	I remembered Sara's number.	I died Sara's number.
+141	transitive	149	escapefrom	shrug	The mouse escaped from the cat's paws.	The mouse shrugged the cat's paws.
+142	transitive	207	kiss	weep	The nurse kissed the child's cheek.	The nurse wept the child's cheek.
+143	transitive	151	stun	fall	The news stunned the mayor's staff.	The news fell the mayor's staff.
+144	transitive	152	stun	concur	The score stunned the team's fans.	The score concurred the team's fans.
+145	transitive	19	astound	fall	The view astounded the climber's group.	The view fell the climber's group.
+146	transitive	45	heal	retaliate	The cream healed the baby's rash.	The cream retaliated the baby's rash.
+147	transitive	154	heal	weep	The surgeon healed the soldier's wound.	The surgeon wept the soldier's wound.
+148	transitive	172	disagreewith	reply	His sister's friend disagreed with our teacher.	His sister's friend replied our teacher.
+149	transitive	199	fix	go	The landlord's worker fixed the tenant's sink.	The landlord's worker went the tenant's sink.
+150	transitive	158	alarm	boast	Maya's scream alarmed the neighbor's child.	Maya's scream boasted the neighbor's child.
+151	transitive	159	hide	compromise	The artist's assistant hid the gallery's key.	The artist's assistant compromised the gallery's key.
+152	transitive	162	discover	concur	The hiker's map discovered the ranger's trail.	The hiker's map concurred the ranger's trail.
+153	transitive	163	drop	wave	The waiter's hand dropped the customer's plate.	The waiter's hand waved the customer's plate.
+154	transitive	43	notice	weep	Our driver noticed the cyclist's signal.	Our driver wept the cyclist's signal.
+155	transitive	165	shock	shrug	The judge's ruling shocked the lawyer's team.	The judge's ruling shrugged the lawyer's team.
+156	transitive	156	disagreewith	disagree	The senator's aide disagreed with the reporter's claim.	The senator's aide disagreed the reporter's claim.
+157	transitive	124	watch	confer	The teacher's aide watched the student's desk.	The teacher's aide conferred the student's desk.
+158	transitive	168	clean	speakup	The cleaner's son cleaned the doctor's office.	The cleaner's son spoke up the doctor's office.
+159	transitive	169	wear	talk	My cousin wore his father's coat.	My cousin talked his father's coat.
+160	transitive	139	climbup	complain	The worker's partner climbed up the farmer's ladder.	The worker's partner complained the farmer's ladder.
+161	transitive	171	fix	blink	The mechanic's apprentice fixed the neighbor's bike.	The mechanic's apprentice blinked the neighbor's bike.
+162	transitive	65	disagreewith	comehere	The editor's boss disagreed with the writer's point.	The editor's boss came here the writer's point.
+163	transitive	34	examine	weep	The inspector's team examined the factory's records.	The inspector's team wept the factory's records.
+164	transitive	174	astound	communicate	The magician's trick astounded the child's parents.	The magician's trick communicated the child's parents.
+165	transitive	175	annoy	disagree	The tenant's complaint annoyed the building's manager.	The tenant's complaint disagreed the building's manager.
+166	transitive	95	investigate	shrug	The agency's analyst investigated the client's account.	The agency's analyst shrugged the client's account.
+167	transitive	179	impress	fall	The pianist's solo impressed the audience's leader.	The pianist's solo fell the audience's leader.
+168	transitive	180	workwith	suffer	The consultant's team worked with the company's staff.	The consultant's team suffered the company's staff.
+169	transitive	181	impress	comehere	The student's answer impressed the teacher's assistant.	The student's answer came here the teacher's assistant.
+170	transitive	182	criticize	jokearound	The critic's column criticized the director's film.	The critic's column joked around the director's film.
+171	transitive	183	climbdown	jokearound	The firefighter's partner climbed down the apartment's stairs.	The firefighter's partner joked around the apartment's stairs.
+172	transitive	143	kiss	shrug	The bride's uncle kissed the groom's mother.	The bride's uncle shrugged the groom's mother.
+173	transitive	185	disgust	fall	The meal's smell disgusted the chef's helper.	The meal's smell fell the chef's helper.
+174	transitive	206	hug	nod	The child's aunt hugged the baby's brother.	The child's aunt nodded the baby's brother.
+175	transitive	144	describe	comehere	The historian's book described the city's bridge.	The historian's book came here the city's bridge.
+176	transitive	188	respect	chat	The intern's mentor respected the student's effort.	The intern's mentor chatted the student's effort.
+177	transitive	134	aggravate	mutter	The delay's cost aggravated the project's manager.	The delay's cost muttered the project's manager.
+178	transitive	51	skatearound	complain	The skater's coach skated around the team's cones.	The skater's coach complained the team's cones.
+179	transitive	191	reference	shrug	The essay's note referenced the scholar's article.	The essay's note shrugged the scholar's article.
+180	transitive	192	returnto	mutter	The camper's group returned to the cabin's porch.	The camper's group muttered the cabin's porch.
+181	transitive	193	know	fall	The captain's crew knew the harbor's rules.	The captain's crew fell the harbor's rules.
+182	transitive	194	remember	sigh	The singer's mother remembered the band's song.	The singer's mother sighed the band's song.
+183	transitive	195	explore	go	The survey's team explored the village's road.	The survey's team went the village's road.
+184	transitive	196	praise	talk	The supervisor's email praised the worker's effort.	The supervisor's email talked the worker's effort.
+185	transitive	81	hat	communicate	The player's rival hated the coach's decision.	The player's rival communicated the coach's decision.
+186	transitive	198	confuse	comehere	The puzzle's clue confused the detective's partner.	The puzzle's clue came here the detective's partner.
+187	transitive	157	fix	smile	The repairman's assistant fixed the family's heater.	The repairman's assistant smiled the family's heater.
+188	transitive	200	messup	smile	The child's game messed up the parent's room.	The child's game smiled the parent's room.
+189	transitive	201	disgust	jokearound	The trash's smell disgusted the restaurant's owner.	The trash's smell joked around the restaurant's owner.
+190	transitive	202	heal	respond	The therapist's treatment healed the athlete's knee.	The therapist's treatment responded the athlete's knee.
+191	transitive	204	walkthrough	react	The visitor's group walked through the museum's hall.	The visitor's group reacted the museum's hall.
+192	transitive	208	help	laugh	The neighbor's daughter helped the old man's dog.	The neighbor's daughter laughed the old man's dog.
+193	transitive	186	hug	wave	The boy's mother hugged the teacher's child.	The boy's mother waved the teacher's child.
+194	transitive	20	kiss	chuckle	The groom's father kissed the bride's hand.	The groom's father chuckled the bride's hand.
+195	transitive	108	help	cooperate	The nurse's helper helped the patient's family.	The nurse's helper cooperated the patient's family.
+196	transitive	52	hire	clash	The shop's owner hired the student's brother.	The shop's owner clashed the student's brother.
+197	transitive	147	bother	complain	The baby's crying bothered the guest's daughter.	The baby's crying complained the guest's daughter.
+198	transitive	215	dislike	suffer	The director's assistant disliked the actor's costume.	The director's assistant suffered the actor's costume.
+199	transitive	216	disturb	fall	The storm's thunder disturbed the dog's sleep.	The storm's thunder fell the dog's sleep.
+200	transitive	217	fleefrom	negotiate	The refugee's family fled from the soldiers' camp.	The refugee's family negotiated the soldiers' camp.

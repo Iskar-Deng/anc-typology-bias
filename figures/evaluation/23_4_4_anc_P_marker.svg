@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="486" viewBox="0 0 880 486">
+<defs><style>text{font-family:Arial,Helvetica,sans-serif}.lab{font-size:11px;fill:#111}.num{font-size:13px;font-weight:700}.small{font-size:12px;fill:#555}.comp{font-size:11px;fill:#555}</style></defs>
+<rect x="0" y="0" width="880" height="486" fill="#fff"/>
+<text class="lab" x="160" y="52" text-anchor="middle">SENT</text>
+<text class="comp" x="160" y="65" text-anchor="middle">Balancing</text>
+<text class="lab" x="248" y="52" text-anchor="middle">POSS-ACC</text>
+<text class="comp" x="248" y="65" text-anchor="middle">Balancing</text>
+<text class="lab" x="336" y="52" text-anchor="middle">ERG-POSS</text>
+<text class="comp" x="336" y="65" text-anchor="middle">Balancing</text>
+<text class="lab" x="424" y="52" text-anchor="middle">NOMN</text>
+<text class="comp" x="424" y="65" text-anchor="middle">Balancing</text>
+<text class="lab" x="512" y="52" text-anchor="middle">SENT</text>
+<text class="comp" x="512" y="65" text-anchor="middle">Deranking</text>
+<text class="lab" x="600" y="52" text-anchor="middle">POSS-ACC</text>
+<text class="comp" x="600" y="65" text-anchor="middle">Deranking</text>
+<text class="lab" x="688" y="52" text-anchor="middle">ERG-POSS</text>
+<text class="comp" x="688" y="65" text-anchor="middle">Deranking</text>
+<text class="lab" x="776" y="52" text-anchor="middle">NOMN</text>
+<text class="comp" x="776" y="65" text-anchor="middle">Deranking</text>
+<text class="lab" x="104" y="82.92" text-anchor="end">SOV/GN</text>
+<text class="lab" x="104" y="97.88" text-anchor="end">NOM-ACC</text>
+<rect x="116" y="70" width="88" height="34" fill="#32864f" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="91.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="204" y="70" width="88" height="34" fill="#388954" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="91.08" text-anchor="middle" fill="#fff">94</text>
+<rect x="210.5" y="98.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="70" width="88" height="34" fill="#2c824a" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="91.08" text-anchor="middle" fill="#fff">97</text>
+<rect x="380" y="70" width="88" height="34" fill="#267e44" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="91.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="468" y="70" width="88" height="34" fill="#207b3f" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="91.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="556" y="70" width="88" height="34" fill="#2e834b" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="91.08" text-anchor="middle" fill="#fff">97</text>
+<rect x="562.5" y="98.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="70" width="88" height="34" fill="#4c9565" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="91.08" text-anchor="middle" fill="#fff">90</text>
+<rect x="732" y="70" width="88" height="34" fill="#358751" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="91.08" text-anchor="middle" fill="#fff">95</text>
+<text class="lab" x="104" y="116.92" text-anchor="end">SOV/NG</text>
+<text class="lab" x="104" y="131.88" text-anchor="end">NOM-ACC</text>
+<rect x="116" y="104" width="88" height="34" fill="#2c824a" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="125.08" text-anchor="middle" fill="#fff">97</text>
+<rect x="122.5" y="132.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="204" y="104" width="88" height="34" fill="#2b8148" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="125.08" text-anchor="middle" fill="#fff">97</text>
+<rect x="210.5" y="132.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="104" width="88" height="34" fill="#2f844c" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="125.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="380" y="104" width="88" height="34" fill="#298047" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="125.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="468" y="104" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="125.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="474.5" y="132.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="556" y="104" width="88" height="34" fill="#227c41" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="125.08" text-anchor="middle" fill="#fff">99</text>
+<rect x="562.5" y="132.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="104" width="88" height="34" fill="#31854d" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="125.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="732" y="104" width="88" height="34" fill="#388954" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="125.08" text-anchor="middle" fill="#fff">94</text>
+<text class="lab" x="104" y="150.92" text-anchor="end">SVO/GN</text>
+<text class="lab" x="104" y="165.88" text-anchor="end">NOM-ACC</text>
+<rect x="116" y="138" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="159.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="204" y="138" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="159.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="292" y="138" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="159.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="380" y="138" width="88" height="34" fill="#2f844c" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="159.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="468" y="138" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="159.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="556" y="138" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="159.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="644" y="138" width="88" height="34" fill="#207b3f" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="159.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="732" y="138" width="88" height="34" fill="#31854d" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="159.08" text-anchor="middle" fill="#fff">96</text>
+<text class="lab" x="104" y="184.92" text-anchor="end">SVO/NG</text>
+<text class="lab" x="104" y="199.88" text-anchor="end">NOM-ACC</text>
+<rect x="116" y="172" width="88" height="34" fill="#479261" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="193.08" text-anchor="middle" fill="#fff">91</text>
+<rect x="204" y="172" width="88" height="34" fill="#31854d" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="193.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="210.5" y="200.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="172" width="88" height="34" fill="#267e44" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="193.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="380" y="172" width="88" height="34" fill="#31854d" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="193.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="468" y="172" width="88" height="34" fill="#3e8d59" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="193.08" text-anchor="middle" fill="#fff">93</text>
+<rect x="556" y="172" width="88" height="34" fill="#267e44" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="193.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="562.5" y="200.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="172" width="88" height="34" fill="#2e834b" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="193.08" text-anchor="middle" fill="#fff">97</text>
+<rect x="732" y="172" width="88" height="34" fill="#348650" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="193.08" text-anchor="middle" fill="#fff">95</text>
+<text class="lab" x="104" y="218.92" text-anchor="end">VOS/GN</text>
+<text class="lab" x="104" y="233.88" text-anchor="end">NOM-ACC</text>
+<rect x="116" y="206" width="88" height="34" fill="#6ba780" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="227.08" text-anchor="middle" fill="#fff">83</text>
+<rect x="122.5" y="234.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="204" y="206" width="88" height="34" fill="#358751" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="227.08" text-anchor="middle" fill="#fff">95</text>
+<rect x="210.5" y="234.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="206" width="88" height="34" fill="#257e43" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="227.08" text-anchor="middle" fill="#fff">99</text>
+<rect x="380" y="206" width="88" height="34" fill="#3a8a55" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="227.08" text-anchor="middle" fill="#fff">94</text>
+<rect x="468" y="206" width="88" height="34" fill="#257e43" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="227.08" text-anchor="middle" fill="#fff">99</text>
+<rect x="474.5" y="234.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="556" y="206" width="88" height="34" fill="#32864f" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="227.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="562.5" y="234.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="206" width="88" height="34" fill="#267e44" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="227.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="732" y="206" width="88" height="34" fill="#267e44" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="227.08" text-anchor="middle" fill="#fff">98</text>
+<text class="lab" x="104" y="252.92" text-anchor="end">VOS/NG</text>
+<text class="lab" x="104" y="267.88" text-anchor="end">NOM-ACC</text>
+<rect x="116" y="240" width="88" height="34" fill="#3e8d59" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="261.08" text-anchor="middle" fill="#fff">93</text>
+<rect x="204" y="240" width="88" height="34" fill="#4c9565" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="261.08" text-anchor="middle" fill="#fff">90</text>
+<rect x="210.5" y="268.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="240" width="88" height="34" fill="#31854d" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="261.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="380" y="240" width="88" height="34" fill="#3d8c58" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="261.08" text-anchor="middle" fill="#fff">93</text>
+<rect x="468" y="240" width="88" height="34" fill="#227c41" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="261.08" text-anchor="middle" fill="#fff">99</text>
+<rect x="556" y="240" width="88" height="34" fill="#2b8148" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="261.08" text-anchor="middle" fill="#fff">97</text>
+<rect x="562.5" y="268.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="240" width="88" height="34" fill="#298047" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="261.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="732" y="240" width="88" height="34" fill="#2e834b" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="261.08" text-anchor="middle" fill="#fff">97</text>
+<text class="lab" x="104" y="286.92" text-anchor="end">SOV/GN</text>
+<text class="lab" x="104" y="301.88" text-anchor="end">ERG-ABS</text>
+<rect x="116" y="274" width="88" height="34" fill="#bcd7c5" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="295.08" text-anchor="middle" fill="#111">65</text>
+<rect x="122.5" y="302.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="204" y="274" width="88" height="34" fill="#ffffff" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="295.08" text-anchor="middle" fill="#111">28</text>
+<rect x="210.5" y="302.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="274" width="88" height="34" fill="#207b3f" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="295.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="298.5" y="302.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="380" y="274" width="88" height="34" fill="#237d42" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="295.08" text-anchor="middle" fill="#fff">99</text>
+<rect x="386.5" y="302.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="468" y="274" width="88" height="34" fill="#408e5a" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="295.08" text-anchor="middle" fill="#fff">93</text>
+<rect x="474.5" y="302.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="556" y="274" width="88" height="34" fill="#ddebe1" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="295.08" text-anchor="middle" fill="#111">58</text>
+<rect x="562.5" y="302.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="274" width="88" height="34" fill="#31854d" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="295.08" text-anchor="middle" fill="#fff">96</text>
+<rect x="650.5" y="302.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="732" y="274" width="88" height="34" fill="#408e5a" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="295.08" text-anchor="middle" fill="#fff">93</text>
+<rect x="738.5" y="302.5" width="69" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<text class="lab" x="104" y="320.92" text-anchor="end">SOV/NG</text>
+<text class="lab" x="104" y="335.88" text-anchor="end">ERG-ABS</text>
+<rect x="116" y="308" width="88" height="34" fill="#ffffff" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="329.08" text-anchor="middle" fill="#111">41</text>
+<rect x="122.5" y="336.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="204" y="308" width="88" height="34" fill="#b3d2bd" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="329.08" text-anchor="middle" fill="#111">67</text>
+<rect x="210.5" y="336.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="308" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="329.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="298.5" y="336.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="380" y="308" width="88" height="34" fill="#267e44" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="329.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="386.5" y="336.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="468" y="308" width="88" height="34" fill="#93bfa2" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="329.08" text-anchor="middle" fill="#111">74</text>
+<rect x="474.5" y="336.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="556" y="308" width="88" height="34" fill="#99c3a8" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="329.08" text-anchor="middle" fill="#111">73</text>
+<rect x="562.5" y="336.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="308" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="329.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="650.5" y="336.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="732" y="308" width="88" height="34" fill="#3d8c58" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="329.08" text-anchor="middle" fill="#fff">93</text>
+<rect x="738.5" y="336.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<text class="lab" x="104" y="354.92" text-anchor="end">SVO/GN</text>
+<text class="lab" x="104" y="369.88" text-anchor="end">ERG-ABS</text>
+<rect x="116" y="342" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="363.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="122.5" y="370.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="204" y="342" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="363.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="210.5" y="370.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="342" width="88" height="34" fill="#207b3f" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="363.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="298.5" y="370.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="380" y="342" width="88" height="34" fill="#298047" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="363.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="468" y="342" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="363.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="474.5" y="370.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="556" y="342" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="363.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="562.5" y="370.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="342" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="363.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="650.5" y="370.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="732" y="342" width="88" height="34" fill="#287f46" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="363.08" text-anchor="middle" fill="#fff">98</text>
+<text class="lab" x="104" y="388.92" text-anchor="end">SVO/NG</text>
+<text class="lab" x="104" y="403.88" text-anchor="end">ERG-ABS</text>
+<rect x="116" y="376" width="88" height="34" fill="#a8ccb4" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="397.08" text-anchor="middle" fill="#111">69</text>
+<rect x="122.5" y="404.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="204" y="376" width="88" height="34" fill="#ffffff" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="397.08" text-anchor="middle" fill="#111">47</text>
+<rect x="210.5" y="404.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="376" width="88" height="34" fill="#298047" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="397.08" text-anchor="middle" fill="#fff">98</text>
+<rect x="298.5" y="404.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="380" y="376" width="88" height="34" fill="#2b8148" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="397.08" text-anchor="middle" fill="#fff">97</text>
+<rect x="386.5" y="404.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="468" y="376" width="88" height="34" fill="#52986a" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="397.08" text-anchor="middle" fill="#fff">89</text>
+<rect x="474.5" y="404.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="556" y="376" width="88" height="34" fill="#eaf3ed" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="397.08" text-anchor="middle" fill="#111">55</text>
+<rect x="562.5" y="404.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="376" width="88" height="34" fill="#509768" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="397.08" text-anchor="middle" fill="#fff">89</text>
+<rect x="650.5" y="404.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="732" y="376" width="88" height="34" fill="#53996b" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="397.08" text-anchor="middle" fill="#fff">88</text>
+<rect x="738.5" y="404.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<text class="lab" x="104" y="422.92" text-anchor="end">VOS/GN</text>
+<text class="lab" x="104" y="437.88" text-anchor="end">ERG-ABS</text>
+<rect x="116" y="410" width="88" height="34" fill="#ffffff" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="431.08" text-anchor="middle" fill="#111">43</text>
+<rect x="122.5" y="438.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="204" y="410" width="88" height="34" fill="#b0d0bb" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="431.08" text-anchor="middle" fill="#111">68</text>
+<rect x="210.5" y="438.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="410" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="431.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="298.5" y="438.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="380" y="410" width="88" height="34" fill="#207b3f" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="431.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="386.5" y="438.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="468" y="410" width="88" height="34" fill="#438f5d" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="431.08" text-anchor="middle" fill="#fff">92</text>
+<rect x="474.5" y="438.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="556" y="410" width="88" height="34" fill="#7ab08c" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="431.08" text-anchor="middle" fill="#fff">80</text>
+<rect x="562.5" y="438.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="410" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="431.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="650.5" y="438.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="732" y="410" width="88" height="34" fill="#207b3f" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="431.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="738.5" y="438.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<text class="lab" x="104" y="456.92" text-anchor="end">VOS/NG</text>
+<text class="lab" x="104" y="471.88" text-anchor="end">ERG-ABS</text>
+<rect x="116" y="444" width="88" height="34" fill="#ecf3ee" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="160" y="465.08" text-anchor="middle" fill="#111">54</text>
+<rect x="122.5" y="472.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="204" y="444" width="88" height="34" fill="#ffffff" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="248" y="465.08" text-anchor="middle" fill="#111">27</text>
+<rect x="210.5" y="472.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="292" y="444" width="88" height="34" fill="#1f7a3e" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="336" y="465.08" text-anchor="middle" fill="#fff">100</text>
+<rect x="298.5" y="472.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="380" y="444" width="88" height="34" fill="#227c41" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="424" y="465.08" text-anchor="middle" fill="#fff">99</text>
+<rect x="386.5" y="472.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="468" y="444" width="88" height="34" fill="#3a8a55" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="512" y="465.08" text-anchor="middle" fill="#fff">94</text>
+<rect x="474.5" y="472.5" width="2" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="556" y="444" width="88" height="34" fill="#a5cab2" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="600" y="465.08" text-anchor="middle" fill="#111">70</text>
+<rect x="562.5" y="472.5" width="75" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="644" y="444" width="88" height="34" fill="#2e834b" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="688" y="465.08" text-anchor="middle" fill="#fff">97</text>
+<rect x="650.5" y="472.5" width="2.25" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="732" y="444" width="88" height="34" fill="#3b8b56" stroke="#fff" stroke-width="1.2"/>
+<text class="num" x="776" y="465.08" text-anchor="middle" fill="#fff">94</text>
+<rect x="738.5" y="472.5" width="69" height="2.6" rx="1.5" fill="#d95f02" opacity="0.82"/>
+<rect x="116" y="70" width="704" height="408" fill="none" stroke="#333" stroke-width="1"/>
+</svg>

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "bare_iv_as_matrix_a",
+    "profile": "bare_IV",
+    "external_role": "A",
+    "source_id_start": 1,
+    "source_id_end": 20,
+    "source_construction": "iv",
+    "overt_arguments": []
+  },
+  {
+    "name": "bare_iv_as_matrix_p",
+    "profile": "bare_IV",
+    "external_role": "P",
+    "source_id_start": 21,
+    "source_id_end": 40,
+    "source_construction": "iv",
+    "overt_arguments": []
+  },
+  {
+    "name": "iv_with_s_as_matrix_a",
+    "profile": "IV_S",
+    "external_role": "A",
+    "source_id_start": 41,
+    "source_id_end": 60,
+    "source_construction": "iv",
+    "overt_arguments": ["S"]
+  },
+  {
+    "name": "iv_with_s_as_matrix_p",
+    "profile": "IV_S",
+    "external_role": "P",
+    "source_id_start": 61,
+    "source_id_end": 80,
+    "source_construction": "iv",
+    "overt_arguments": ["S"]
+  },
+  {
+    "name": "bare_tv_as_matrix_a",
+    "profile": "bare_TV",
+    "external_role": "A",
+    "source_id_start": 81,
+    "source_id_end": 100,
+    "source_construction": "tv",
+    "overt_arguments": []
+  },
+  {
+    "name": "bare_tv_as_matrix_p",
+    "profile": "bare_TV",
+    "external_role": "P",
+    "source_id_start": 101,
+    "source_id_end": 120,
+    "source_construction": "tv",
+    "overt_arguments": []
+  },
+  {
+    "name": "tv_with_a_as_matrix_a",
+    "profile": "TV_A",
+    "external_role": "A",
+    "source_id_start": 121,
+    "source_id_end": 140,
+    "source_construction": "tv",
+    "overt_arguments": ["A"]
+  },
+  {
+    "name": "tv_with_a_as_matrix_p",
+    "profile": "TV_A",
+    "external_role": "P",
+    "source_id_start": 141,
+    "source_id_end": 160,
+    "source_construction": "tv",
+    "overt_arguments": ["A"]
+  },
+  {
+    "name": "tv_with_p_as_matrix_a",
+    "profile": "TV_P",
+    "external_role": "A",
+    "source_id_start": 161,
+    "source_id_end": 180,
+    "source_construction": "tv",
+    "overt_arguments": ["P"]
+  },
+  {
+    "name": "tv_with_p_as_matrix_p",
+    "profile": "TV_P",
+    "external_role": "P",
+    "source_id_start": 181,
+    "source_id_end": 200,
+    "source_construction": "tv",
+    "overt_arguments": ["P"]
+  },
+  {
+    "name": "tv_with_a_p_as_matrix_a",
+    "profile": "TV_A_P",
+    "external_role": "A",
+    "source_id_start": 201,
+    "source_id_end": 220,
+    "source_construction": "tv",
+    "overt_arguments": ["A", "P"]
+  },
+  {
+    "name": "tv_with_a_p_as_matrix_p",
+    "profile": "TV_A_P",
+    "external_role": "P",
+    "source_id_start": 221,
+    "source_id_end": 240,
+    "source_construction": "tv",
+    "overt_arguments": ["A", "P"]
+  }
+]

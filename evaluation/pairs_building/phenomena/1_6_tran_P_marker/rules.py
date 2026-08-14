@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# evaluation/pairs_building/phenomena/1_6_tran_P_marker/rules.py
+
+"""
+Define perturbation rules for 1.6 Transitive P marker.
+
+Usage:
+python -m evaluation.pairs_building.apply_perturbation \
+  --phenomenon evaluation/pairs_building/phenomena/1_6_tran_P_marker \
+  --input GENERATED_SELECTED_JSONL \
+  --output PAIRS_JSONL \
+  --sample-size 100 \
+  --seed 42
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+from typing import Any, Dict
+
+from evaluation.pairs_building.rule_utils import (
+    find_transitive_template_match,
+    load_json_templates,
+    marker_value,
+    stable_row_index,
+    strip_nonempty_suffix,
+    transitive_shape_from_pseudo,
+)
+
+
+PHENOMENON_ID = "1.6"
+PHENOMENON_NAME = "tran_P_marker"
+TEMPLATE_PATH = Path(__file__).with_name("templates.json")
+
+
+TEMPLATES = load_json_templates(TEMPLATE_PATH)
+
+
+def foil_for_p(row: Dict[str, Any] | None, fallback_index: int, alignment: str) -> tuple[str, str]:
+    use_ge_foil = stable_row_index(row, fallback_index) % 2 == 0
+
+    if use_ge_foil:
+        return "ge", "replace_transitive_p_marker_with_ge"
+
+    if alignment == "nom-acc":
+        return "0", "remove_ca_from_transitive_p"
+
+    if alignment == "erg-abs":
+        return "ca", "add_ca_to_transitive_p"
+
+    raise ValueError(f"Unsupported alignment: {alignment}")
+
+
+def perturb(
+    good_sentence: str,
+    language_config: Dict[str, Any],
+    source_index: int,
+    row: Dict[str, Any] | None = None,
+) -> Dict[str, Any]:
+    tokens = good_sentence.strip().split()
+
+    clause_wo = language_config["clause_wo"]
+    np_wo = language_config["np_wo"]
+    alignment = language_config["alignment"]
+    good_a_mark = language_config["FIN_A_MARK"]
+    good_p_mark = language_config["FIN_P_MARK"]
+
+    parsed = find_transitive_template_match(
+        templates=TEMPLATES,
+        tokens=tokens,
+        clause_wo=clause_wo,
+        np_wo=np_wo,
+        a_marker=good_a_mark,
+        p_marker=good_p_mark,
+        expected_shape=transitive_shape_from_pseudo(row),
+    )
+    if parsed is None:
+        return {
+            "skip": True,
+            "skip_reason": "template_match_count_not_one",
+            "good": good_sentence,
+            "tokens": tokens,
+            "clause_wo": clause_wo,
+            "np_wo": np_wo,
+            "alignment": alignment,
+            "good_a_mark": marker_value(good_a_mark),
+            "good_p_mark": marker_value(good_p_mark),
+        }
+
+    target_index = parsed.p.head_index
+    target_token = tokens[target_index]
+    bad_value, perturbation_label = foil_for_p(row, source_index, alignment)
+
+    bad_tokens = tokens[:]
+    if marker_value(good_p_mark) == "0":
+        if bad_value == "0":
+            raise ValueError("P is already zero-marked")
+        bad_tokens[target_index] = target_token + bad_value
+    elif good_p_mark == "ca":
+        p_stem = strip_nonempty_suffix(target_token, "ca")
+        if bad_value == "0":
+            bad_tokens[target_index] = p_stem
+        elif bad_value == "ge":
+            bad_tokens[target_index] = p_stem + "ge"
+        else:
+            raise ValueError(f"Unsupported bad_value for ca-marked P: {bad_value}")
+    else:
+        raise ValueError(f"Unsupported GOOD P marker: {good_p_mark!r}")
+
+    return {
+        "bad": " ".join(bad_tokens),
+        "target_role": "P",
+        "target_index": target_index,
+        "target_token": target_token,
+        "a_span": parsed.a.text,
+        "p_span": parsed.p.text,
+        "verb_token": parsed.verb_token,
+        "good_value": marker_value(good_p_mark),
+        "bad_value": bad_value,
+        "template": parsed.template_name,
+        "perturbation": perturbation_label,
+    }

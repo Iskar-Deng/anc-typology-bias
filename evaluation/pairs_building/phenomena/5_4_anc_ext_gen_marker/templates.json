@@ -1,0 +1,50 @@
+[
+  {
+    "name": "bare_iv_as_genitive_possessor",
+    "profile": "bare_IV",
+    "source_id_start": 1,
+    "source_id_end": 80,
+    "source_construction": "iv",
+    "overt_arguments": []
+  },
+  {
+    "name": "iv_with_s_as_genitive_possessor",
+    "profile": "IV_S",
+    "source_id_start": 81,
+    "source_id_end": 160,
+    "source_construction": "iv",
+    "overt_arguments": ["S"]
+  },
+  {
+    "name": "bare_tv_as_genitive_possessor",
+    "profile": "bare_TV",
+    "source_id_start": 161,
+    "source_id_end": 240,
+    "source_construction": "tv",
+    "overt_arguments": []
+  },
+  {
+    "name": "tv_with_a_as_genitive_possessor",
+    "profile": "TV_A",
+    "source_id_start": 241,
+    "source_id_end": 320,
+    "source_construction": "tv",
+    "overt_arguments": ["A"]
+  },
+  {
+    "name": "tv_with_p_as_genitive_possessor",
+    "profile": "TV_P",
+    "source_id_start": 321,
+    "source_id_end": 400,
+    "source_construction": "tv",
+    "overt_arguments": ["P"]
+  },
+  {
+    "name": "tv_with_a_p_as_genitive_possessor",
+    "profile": "TV_A_P",
+    "source_id_start": 401,
+    "source_id_end": 480,
+    "source_construction": "tv",
+    "overt_arguments": ["A", "P"]
+  }
+]

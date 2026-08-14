@@ -1,0 +1,199 @@
+source_id	source_uid	pair_id	good_stem	bad_stem	good_source	bad_source
+1	intransitive	105	yawn	arriveat	I yawned.	I arrived at.
+2	intransitive	1	leave	boastabout	The bus left.	The bus boasted about.
+3	intransitive	3	shout	boastabout	A guard shouted.	A guard boasted about.
+4	intransitive	4	complain	wear	Several neighbors complained.	Several neighbors wore.
+5	intransitive	5	benefit	argueabout	The whole team benefited.	The whole team argued about.
+6	intransitive	6	vaporize	scare	The mist vaporized.	The mist scared.
+7	intransitive	127	succeed	goto	Maya succeeded.	Maya went to.
+8	intransitive	8	scream	driveto	A child screamed.	A child drove to.
+9	intransitive	73	crumple	resemble	The paper crumpled.	The paper resembled.
+10	intransitive	10	cook	goto	The soup cooked.	The soup went to.
+11	intransitive	12	scorch	scare	The toast scorched.	The toast scared.
+12	intransitive	13	paint	walkthrough	A student painted.	A student walked through.
+13	intransitive	14	brighten	resemble	The room brightened.	The room resembled.
+14	intransitive	15	succeed	scare	Daniel succeeded.	Daniel scared.
+15	intransitive	16	collaborate	goto	The researchers collaborated.	The researchers went to.
+16	intransitive	17	blacken	resemble	The sky blackened.	The sky resembled.
+17	intransitive	19	die	arriveat	The old tree died.	The old tree arrived at.
+18	intransitive	112	crumple	looklike	The receipt crumpled.	The receipt looked like.
+19	intransitive	218	fall	lift	A glass fell.	A glass lifted.
+20	intransitive	22	clash	arriveat	The schedules clashed.	The schedules arrived at.
+21	intransitive	23	chip	scare	The cup chipped.	The cup scared.
+22	intransitive	25	cooperate	boastabout	Both groups cooperated.	Both groups boasted about.
+23	intransitive	154	dim	scare	The lamp dimmed.	The lamp scared.
+24	intransitive	27	learn	dislike	A beginner learned.	A beginner disliked.
+25	intransitive	220	donate	scare	Many residents donated.	Many residents scared.
+26	intransitive	29	hunt	examine	The cat hunted.	The cat examined.
+27	intransitive	195	argue	arriveat	Two lawyers argued.	Two lawyers arrived at.
+28	intransitive	31	embrace	respect	The couple embraced.	The couple respected.
+29	intransitive	203	depart	talkto	The train departed.	The train talked to.
+30	intransitive	235	fall	soundlike	A leaf fell.	A leaf sounded like.
+31	intransitive	36	murmur	goto	The crowd murmured.	The crowd went to.
+32	intransitive	38	shatter	looklike	The window shattered.	The window looked like.
+33	intransitive	39	lie	examine	The baby lay.	The baby examined.
+34	intransitive	40	compete	conceal	Three runners competed.	Three runners concealed.
+35	intransitive	138	wakeup	talkto	She woke up.	She talked to.
+36	intransitive	42	kiss	examine	The teenagers kissed.	The teenagers examined.
+37	intransitive	43	concur	carefor	The committee concurred.	The committee cared for.
+38	intransitive	44	blink	boastabout	A kitten blinked.	A kitten boasted about.
+39	intransitive	45	die	argueabout	The fish died.	The fish argued about.
+40	intransitive	46	play	cure	The children played.	The children cured.
+41	intransitive	47	answer	reveal	He answered.	He revealed.
+42	intransitive	141	debate	looklike	The candidates debated.	The candidates looked like.
+43	intransitive	49	assemble	dislike	The guests assembled.	The guests disliked.
+44	intransitive	50	litter	escapefrom	The campers littered.	The campers escaped from.
+45	intransitive	28	donate	conceal	A visitor donated.	A visitor concealed.
+46	intransitive	148	negotiate	talkabout	The leaders negotiated.	The leaders talked about.
+47	intransitive	53	rot	resemble	The fruit rotted.	The fruit resembled.
+48	intransitive	55	protest	conceal	The workers protested.	The workers concealed.
+49	intransitive	56	darken	looklike	The hallway darkened.	The hallway looked like.
+50	intransitive	57	drink	goto	The guests drank.	The guests went to.
+51	intransitive	229	sitdown	disagreewith	The customer sat down.	The customer disagreed with.
+52	intransitive	59	lie	complainabout	A dog lay.	A dog complained about.
+53	intransitive	60	move	listento	The line moved.	The line listened to.
+54	intransitive	208	wash	talkabout	The towels washed.	The towels talked about.
+55	intransitive	63	murmur	examine	People murmured.	People examined.
+56	intransitive	174	salute	boastabout	The soldiers saluted.	The soldiers boasted about.
+57	intransitive	65	warp	scare	The board warped.	The board scared.
+58	intransitive	196	wakeup	dislike	I woke up.	I disliked.
+59	intransitive	68	answer	talkabout	The receptionist answered.	The receptionist talked about.
+60	intransitive	69	tighten	resemble	The rope tightened.	The rope resembled.
+61	intransitive	70	reply	arriveat	She replied.	She arrived at.
+62	intransitive	71	char	resemble	The wood charred.	The wood resembled.
+63	intransitive	72	standup	arriveat	The audience stood up.	The audience arrived at.
+64	intransitive	9	crumple	looklike	The napkin crumpled.	The napkin looked like.
+65	intransitive	74	steer	scare	The boat steered.	The boat scared.
+66	intransitive	75	blink	listento	The owl blinked.	The owl listened to.
+67	intransitive	79	smile	dropby	The baby smiled.	The baby dropped by.
+68	intransitive	77	darken	scare	The room darkened.	The room scared.
+69	intransitive	78	fling	looklike	The loose strap flung wildly.	The loose strap looked like wildly.
+70	intransitive	76	smile	admire	The clerk smiled.	The clerk admired.
+71	intransitive	81	cough	lift	The patient coughed.	The patient lifted.
+72	intransitive	82	hunt	talkabout	The wolves hunted.	The wolves talked about.
+73	intransitive	146	sigh	conceal	The actor sighed.	The actor concealed.
+74	intransitive	84	surrender	lift	The army surrendered.	The army lifted.
+75	intransitive	85	meet	argueabout	The friends met.	The friends argued about.
+76	intransitive	86	conspire	returnto	The rebels conspired.	The rebels returned to.
+77	intransitive	87	char	looklike	The edges charred.	The edges looked like.
+78	intransitive	88	steer	looklike	The car steered.	The car looked like.
+79	intransitive	89	change	fire	The weather changed.	The weather fired.
+80	intransitive	91	hideaway	fire	The fugitive hid away.	The fugitive fired.
+81	intransitive	93	struggle	looklike	The climber struggled.	The climber looked like.
+82	intransitive	94	answer	listento	A volunteer answered.	A volunteer listened to.
+83	intransitive	128	slow	looklike	The traffic slowed.	The traffic looked like.
+84	intransitive	97	wasteaway	workwith	The singer wasted away.	The singer worked with.
+85	intransitive	114	exist	soundlike	Life existed.	Life sounded like.
+86	intransitive	99	murmur	boastabout	The audience murmured.	The audience boasted about.
+87	intransitive	100	stretch	looklike	The runner stretched.	The runner looked like.
+88	intransitive	101	chip	looklike	The plate chipped.	The plate looked like.
+89	intransitive	102	see	boastabout	I see.	I boast about.
+90	intransitive	103	complain	conceal	The tenants complained.	The tenants concealed.
+91	intransitive	104	cope	talkabout	The family coped.	The family talked about.
+92	intransitive	109	yawn	driveto	The baby yawned.	The baby drove to.
+93	intransitive	241	reply	conceal	The assistant replied.	The assistant concealed.
+94	intransitive	107	practice	carefor	The pianist practiced.	The pianist cared for.
+95	intransitive	108	fling	resemble	A torn curtain flung loosely.	A torn curtain resembled loosely.
+96	intransitive	0	yawn	walkthrough	The puppy yawned.	The puppy walked through.
+97	intransitive	110	change	dropby	The rules changed.	The rules dropped by.
+98	intransitive	111	stretch	talkabout	The dancer stretched.	The dancer talked about.
+99	intransitive	20	crumple	scare	The letter crumpled.	The letter scared.
+100	intransitive	113	weep	conceal	The widow wept.	The widow concealed.
+101	intransitive	189	exist	resemble	The problem existed.	The problem resembled.
+102	intransitive	115	flatten	resemble	The dough flattened.	The dough resembled.
+103	intransitive	117	talk	goto	The guests talked.	The guests went to.
+104	intransitive	118	interact	conceal	The players interacted.	The players concealed.
+105	intransitive	119	shut	looklike	The gate shut.	The gate looked like.
+106	intransitive	129	sitdown	complainabout	Our driver sat down.	Our driver complained about.
+107	intransitive	240	mutter	dropby	Her uncle muttered.	Her uncle dropped by.
+108	intransitive	123	open	looklike	My umbrella opened.	My umbrella looked like.
+109	intransitive	124	boast	driveto	The mayor boasted.	The mayor drove to.
+110	intransitive	125	confer	reference	The lawyers conferred.	The lawyers referenced.
+111	intransitive	7	succeed	boastabout	Their captain succeeded.	Their captain boasted about.
+112	intransitive	95	slow	scare	The factory's output slowed.	The factory's output scared.
+113	intransitive	120	sitdown	dislike	His sister sat down.	His sister disliked.
+114	intransitive	131	vaporize	scare	The kettle's steam vaporized.	The kettle's steam scared.
+115	intransitive	133	fight	fire	Our neighbors fought.	Our neighbors fired.
+116	intransitive	134	wasteaway	resemble	The patient's body wasted away.	The patient's body resembled.
+118	intransitive	136	kiss	admire	The bride's parents kissed.	The bride's parents admired.
+119	intransitive	137	burn	resemble	The candle's wick burned.	The candle's wick resembled.
+120	intransitive	66	wakeup	scare	Your roommate woke up.	Your roommate scared.
+121	intransitive	140	whisper	conceal	The librarian's assistant whispered.	The librarian's assistant concealed.
+122	intransitive	48	debate	respect	The senator's rivals debated.	The senator's rivals respected.
+123	intransitive	142	fray	resemble	My jacket's sleeve frayed.	My jacket's sleeve resembled.
+124	intransitive	21	fall	resemble	The child's toy fell.	The child's toy resembled.
+125	intransitive	145	yell	fire	Her coach yelled.	Her coach fired.
+126	intransitive	170	sigh	talkabout	Our teacher sighed.	Our teacher talked about.
+127	intransitive	168	worry	boastabout	The manager's staff worried.	The manager's staff boasted about.
+128	intransitive	52	negotiate	goto	The company's lawyers negotiated.	The company's lawyers went to.
+129	intransitive	149	brighten	looklike	Their kitchen brightened.	Their kitchen looked like.
+130	intransitive	151	perform	biketo	The school's choir performed.	The school's choir biked to.
+131	intransitive	152	practice	reveal	My cousin practiced.	My cousin revealed.
+132	intransitive	153	shatter	resemble	The mirror's surface shattered.	The mirror's surface resembled.
+133	intransitive	26	dim	looklike	The hallway's light dimmed.	The hallway's light looked like.
+134	intransitive	155	blink	biketo	The cat's eyes blinked.	The cat's eyes biked to.
+135	intransitive	157	spinaround	scare	The skater's partner spun around.	The skater's partner scared.
+136	intransitive	158	shut	scare	Our bedroom's door shut.	Our bedroom's door scared.
+137	intransitive	159	lie	cure	The farmer's dog lay.	The farmer's dog cured.
+138	intransitive	160	maneuver	resemble	The pilot's trainee maneuvered.	The pilot's trainee resembled.
+139	intransitive	161	wrinkle	resemble	My shirt's collar wrinkled.	My shirt's collar resembled.
+140	intransitive	162	suffer	returnto	The town's residents suffered.	The town's residents returned to.
+141	intransitive	163	compromise	complainabout	Their union compromised.	Their union complained about.
+142	intransitive	164	divorce	conceal	Her parents divorced.	Her parents concealed.
+144	intransitive	167	condense	scare	The glass's vapor condensed.	The glass's vapor scared.
+145	intransitive	147	worry	walkthrough	The babysitter's client worried.	The babysitter's client walked through.
+146	intransitive	169	close	looklike	Our office's window closed.	Our office's window looked like.
+147	intransitive	83	sigh	complainabout	The nurse's aide sighed.	The nurse's aide complained about.
+148	intransitive	171	laugh	go	My brother laughed.	My brother went.
+149	intransitive	172	swallow	argueabout	The speaker's throat swallowed.	The speaker's throat argued about.
+150	intransitive	173	shout	driveto	The coach's players shouted.	The coach's players drove to.
+151	intransitive	64	salute	goto	The embassy's guards saluted.	The embassy's guards went to.
+152	intransitive	176	murmur	scare	Her grandfather murmured.	Her grandfather scared.
+153	intransitive	178	see	lift	My doctor sees.	My doctor lifts.
+154	intransitive	180	dim	resemble	The porch's lamp dimmed.	The porch's lamp resembled.
+155	intransitive	181	react	fire	The animal's body reacted.	The animal's body fired.
+156	intransitive	182	evaporate	scare	The puddle's water evaporated.	The puddle's water scared.
+157	intransitive	186	train	respect	Our team trained.	Our team respected.
+158	intransitive	188	hunt	dropby	The shepherd's dogs hunted.	The shepherd's dogs dropped by.
+159	intransitive	98	exist	scare	The island's village existed.	The island's village scared.
+160	intransitive	190	steer	scare	The captain's boat steered.	The captain's boat scared.
+161	intransitive	210	vanish	looklike	The magician's assistant vanished.	The magician's assistant looked like.
+162	intransitive	30	argue	looklike	The professor's students argued.	The professor's students looked like.
+163	intransitive	41	wakeup	returnto	My daughter woke up.	My daughter returned to.
+164	intransitive	212	dry	looklike	The towel's fabric dried.	The towel's fabric looked like.
+165	intransitive	198	exist	conceal	The tribe's language existed.	The tribe's language concealed.
+166	intransitive	166	shrink	resemble	The sweater's sleeves shrank.	The sweater's sleeves resembled.
+167	intransitive	32	depart	cure	The ambassador's party departed.	The ambassador's party cured.
+168	intransitive	238	nod	fire	The judge's clerk nodded.	The judge's clerk fired.
+169	intransitive	205	cook	find	My father's stew cooked.	My father's stew found.
+170	intransitive	206	surrender	admire	The enemy's soldiers surrendered.	The enemy's soldiers admired.
+171	intransitive	207	wasteaway	reveal	The plant's leaves wasted away.	The plant's leaves revealed.
+172	intransitive	193	vanish	talkto	The shadow's outline vanished.	The shadow's outline talked to.
+173	intransitive	211	bake	argueabout	The bakery's bread baked.	The bakery's bread argued about.
+174	intransitive	213	communicate	returnto	The radio's signal communicated.	The radio's signal returned to.
+175	intransitive	214	hunt	lift	The farmer's sons hunted.	The farmer's sons lifted.
+176	intransitive	215	chuckle	wear	The audience's host chuckled.	The audience's host wore.
+177	intransitive	216	crack	looklike	The phone's screen cracked.	The phone's screen looked like.
+178	intransitive	143	fall	scare	The ladder's rung fell.	The ladder's rung scared.
+179	intransitive	219	reply	reference	The editor's assistant replied.	The editor's assistant referenced.
+180	intransitive	51	donate	driveto	The charity's donors donated.	The charity's donors drove to.
+181	intransitive	221	close	scare	The shop's doors closed.	The shop's doors scared.
+182	intransitive	223	whisper	carefor	The receptionist's trainee whispered.	The receptionist's trainee cared for.
+183	intransitive	224	date	find	My sister's friend dated.	My sister's friend found.
+184	intransitive	225	explain	respect	The principal's deputy explained.	The principal's deputy respected.
+185	intransitive	226	rust	resemble	The bicycle's chain rusted.	The bicycle's chain resembled.
+186	intransitive	245	write	dropby	The novelist's apprentice wrote.	The novelist's apprentice dropped by.
+187	intransitive	228	ripen	looklike	The orchard's peaches ripened.	The orchard's peaches looked like.
+188	intransitive	58	sitdown	arriveat	The captain's crew sat down.	The captain's crew arrived at.
+189	intransitive	231	argue	resemble	The lawyer's clients argued.	The lawyer's clients resembled.
+190	intransitive	232	assemble	workwith	The conference's delegates assembled.	The conference's delegates worked with.
+191	intransitive	236	roll	resemble	The baby's ball rolled.	The baby's ball resembled.
+192	intransitive	234	succeed	bike	The candidate's campaign succeeded.	The candidate's campaign biked.
+193	intransitive	35	fall	conceal	The roof's tile fell.	The roof's tile concealed.
+194	intransitive	233	roll	scare	The cart's wheel rolled.	The cart's wheel scared.
+195	intransitive	121	mutter	looklike	The guard's partner muttered.	The guard's partner looked like.
+196	intransitive	106	reply	complainabout	The secretary's boss replied.	The secretary's boss complained about.
+197	intransitive	243	respond	fleefrom	The agency's director responded.	The agency's director fled from.
+198	intransitive	244	sigh	arriveat	The patient's mother sighed.	The patient's mother arrived at.
+199	intransitive	227	write	fire	The poet's student wrote.	The poet's student fired.
+200	intransitive	246	accelerate	resemble	The engine's rhythm accelerated.	The engine's rhythm resembled.

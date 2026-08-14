@@ -1,0 +1,240 @@
+The arrival surprised the guard.
+The departure upset the children.
+The return pleased the family.
+The decline worried the investors.
+The growth encouraged the owners.
+The recovery relieved the doctor.
+The collapse alarmed the residents.
+The escape shocked the police.
+The disappearance puzzled the neighbors.
+The emergence interested the researchers.
+The improvement pleased the coach.
+The delay annoyed the passengers.
+The fall frightened the traders.
+The rise impressed the analysts.
+The arrival has delighted the host.
+The departure had saddened the staff.
+The recovery will reassure the patient.
+The decline may concern the board.
+The growth is encouraging the manager.
+The collapse was alarming the engineers.
+The guard noticed the arrival.
+The children remembered the departure.
+The family welcomed the return.
+The investors feared the decline.
+The owners welcomed the growth.
+The doctor observed the recovery.
+The residents reported the collapse.
+The police investigated the escape.
+The neighbors noticed the disappearance.
+The researchers studied the emergence.
+The coach praised the improvement.
+The passengers expected the delay.
+The traders anticipated the fall.
+The analysts predicted the rise.
+The host has celebrated the arrival.
+The staff had discussed the departure.
+The patient will welcome the recovery.
+The board may regret the decline.
+The manager is monitoring the growth.
+The engineers were examining the collapse.
+The child's arrival surprised the teacher.
+The train's departure upset the tourists.
+The patient's recovery pleased the doctor.
+The market's decline worried the bankers.
+The company's growth impressed the investors.
+The bridge's collapse alarmed the residents.
+The prisoner's escape shocked the guards.
+The actor's return delighted the fans.
+The fog's disappearance relieved the drivers.
+The disease's emergence concerned the officials.
+The team's improvement encouraged the coach.
+The flight's delay annoyed the passengers.
+The river's rise frightened the villagers.
+The temperature's fall surprised the farmers.
+Maria's arrival has pleased the host.
+The director's departure had saddened the staff.
+The economy's recovery will reassure the public.
+The store's decline may concern the owner.
+Our son's return is delighting the family.
+The roof's collapse was alarming the workers.
+The teacher noticed the child's arrival.
+The tourists regretted the train's departure.
+The doctor welcomed the patient's recovery.
+The bankers tracked the market's decline.
+The investors praised the company's growth.
+The residents reported the bridge's collapse.
+The guards investigated the prisoner's escape.
+The fans celebrated the actor's return.
+The drivers noticed the fog's disappearance.
+The officials studied the disease's emergence.
+The coach praised the team's improvement.
+The passengers expected the flight's delay.
+The villagers feared the river's rise.
+The farmers recorded the temperature's fall.
+The host has welcomed Maria's arrival.
+The staff had discussed the director's departure.
+The public will welcome the economy's recovery.
+The owner may regret the store's decline.
+The family is celebrating our son's return.
+The workers were examining the roof's collapse.
+The inspection worried the manager.
+The replacement pleased the tenant.
+The translation confused the reader.
+The construction annoyed the neighbors.
+The publication surprised the author.
+The cancellation upset the customers.
+The measurement puzzled the technician.
+The decision shocked the staff.
+The proposal impressed the committee.
+The approval relieved the applicant.
+The discussion interested the students.
+The performance delighted the audience.
+The selection disappointed the finalist.
+The examination concerned the patient.
+The repair satisfied the owner.
+The inspection has reassured the buyer.
+The replacement had pleased the driver.
+The translation will help the visitor.
+The decision may surprise the voters.
+The proposal is impressing the reviewers.
+The manager approved the inspection.
+The tenant welcomed the replacement.
+The reader checked the translation.
+The neighbors opposed the construction.
+The author welcomed the publication.
+The customers regretted the cancellation.
+The technician repeated the measurement.
+The staff questioned the decision.
+The committee considered the proposal.
+The applicant received the approval.
+The students enjoyed the discussion.
+The audience praised the performance.
+The finalist accepted the selection.
+The patient requested the examination.
+The owner inspected the repair.
+The buyer has reviewed the inspection.
+The driver had requested the replacement.
+The visitor will use the translation.
+The voters may reject the decision.
+The reviewers are considering the proposal.
+The nurse's examination worried the doctor.
+The mechanic's inspection reassured the driver.
+The editor's translation impressed the author.
+The builder's construction annoyed the neighbors.
+The publisher's publication surprised the writer.
+The airline's cancellation upset the travelers.
+The technician's measurement puzzled the engineer.
+The board's decision shocked the employees.
+The senator's proposal interested the mayor.
+The director's approval relieved the team.
+The teacher's discussion engaged the students.
+The singer's performance delighted the crowd.
+The panel's selection disappointed the candidate.
+The landlord's replacement pleased the tenant.
+The plumber's repair satisfied the owner.
+The inspector's examination has reassured the buyer.
+The garage's replacement had pleased the customer.
+The interpreter's translation will help the visitor.
+The council's decision may surprise the residents.
+The architect's proposal is impressing the clients.
+The doctor requested the nurse's examination.
+The driver trusted the mechanic's inspection.
+The author praised the editor's translation.
+The neighbors opposed the builder's construction.
+The writer welcomed the publisher's publication.
+The travelers regretted the airline's cancellation.
+The engineer checked the technician's measurement.
+The employees questioned the board's decision.
+The mayor considered the senator's proposal.
+The team welcomed the director's approval.
+The students enjoyed the teacher's discussion.
+The crowd applauded the singer's performance.
+The candidate accepted the panel's selection.
+The tenant welcomed the landlord's replacement.
+The owner inspected the plumber's repair.
+The buyer has reviewed the inspector's examination.
+The customer had requested the garage's replacement.
+The visitor will use the interpreter's translation.
+The residents may reject the council's decision.
+The clients are considering the architect's proposal.
+The inspection of the kitchen worried the manager.
+The replacement of the window pleased the tenant.
+The translation of the letter confused the reader.
+The construction of the bridge annoyed the neighbors.
+The publication of the article surprised the author.
+The cancellation of the flight upset the passengers.
+The measurement of the room puzzled the technician.
+The approval of the budget shocked the staff.
+The discussion of the plan impressed the committee.
+The selection of the applicant relieved the director.
+The discussion of the problem interested the students.
+The performance of the song delighted the audience.
+The selection of the winner disappointed the finalist.
+The examination of the wound concerned the patient.
+The repair of the roof satisfied the owner.
+The inspection of the house has reassured the buyer.
+The replacement of the tire had pleased the driver.
+The translation of the menu will help the visitor.
+The approval of the route may surprise the drivers.
+The publication of the report is impressing the reviewers.
+The manager approved the inspection of the kitchen.
+The tenant welcomed the replacement of the window.
+The reader checked the translation of the letter.
+The neighbors opposed the construction of the bridge.
+The author welcomed the publication of the article.
+The passengers regretted the cancellation of the flight.
+The technician repeated the measurement of the room.
+The staff questioned the approval of the budget.
+The committee considered the discussion of the plan.
+The director welcomed the selection of the applicant.
+The students enjoyed the discussion of the problem.
+The audience praised the performance of the song.
+The finalist accepted the selection of the winner.
+The patient requested the examination of the wound.
+The owner inspected the repair of the roof.
+The buyer has reviewed the inspection of the house.
+The driver had requested the replacement of the tire.
+The visitor will use the translation of the menu.
+The drivers may reject the approval of the route.
+The reviewers are considering the publication of the report.
+The nurse's examination of the wound worried the doctor.
+The mechanic's inspection of the engine reassured the driver.
+The editor's translation of the letter impressed the author.
+The builder's construction of the bridge annoyed the neighbors.
+The publisher's publication of the article surprised the writer.
+The airline's cancellation of the flight upset the travelers.
+The technician's measurement of the room puzzled the engineer.
+The board's approval of the budget shocked the employees.
+The senator's discussion of the park interested the mayor.
+The director's approval of the plan relieved the team.
+The teacher's discussion of the problem engaged the students.
+The singer's performance of the song delighted the crowd.
+The panel's selection of the winner disappointed the candidate.
+The landlord's replacement of the window pleased the tenant.
+The plumber's repair of the roof satisfied the owner.
+The inspector's examination of the house has reassured the buyer.
+The garage's replacement of the tire had pleased the customer.
+The interpreter's translation of the menu will help the visitor.
+The council's approval of the route may surprise the residents.
+The architect's discussion of the project is impressing the clients.
+The doctor requested the nurse's examination of the wound.
+The driver trusted the mechanic's inspection of the engine.
+The author praised the editor's translation of the letter.
+The neighbors opposed the builder's construction of the bridge.
+The writer welcomed the publisher's publication of the article.
+The travelers regretted the airline's cancellation of the flight.
+The engineer checked the technician's measurement of the room.
+The employees questioned the board's approval of the budget.
+The mayor followed the senator's discussion of the park.
+The team welcomed the director's approval of the plan.
+The students enjoyed the teacher's discussion of the problem.
+The crowd applauded the singer's performance of the song.
+The candidate accepted the panel's selection of the winner.
+The tenant welcomed the landlord's replacement of the window.
+The owner inspected the plumber's repair of the roof.
+The buyer has reviewed the inspector's examination of the house.
+The customer had requested the garage's replacement of the tire.
+The visitor will use the interpreter's translation of the menu.
+The residents may reject the council's approval of the route.
+The clients are considering the architect's discussion of the project.

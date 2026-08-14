@@ -1,0 +1,480 @@
+The arrival's timing surprised the guard.
+The arrival's noise woke the baby.
+The arrival's date suited the host.
+The arrival's speed worried the driver.
+The departure's timing annoyed the staff.
+The departure's delay upset the family.
+The departure's route puzzled the guide.
+The departure's sound startled the dog.
+The movement's pattern interested the coach.
+The movement's speed impressed the crowd.
+The movement's rhythm pleased the dancer.
+The movement's path confused the child.
+The appearance's timing shocked the crowd.
+The appearance's style amused the guests.
+The appearance's effect pleased the director.
+The appearance's suddenness startled the clerk.
+The disappearance's cause troubled the police.
+The disappearance's timing worried the owner.
+The disappearance's mystery gripped the town.
+The disappearance's effect upset the team.
+The emergence's timing surprised the market.
+The emergence's shape interested the doctor.
+The emergence's pace worried the farmer.
+The emergence's pattern interested the expert.
+The retirement's date pleased the coach.
+The retirement's timing shocked the club.
+The retirement's effect worried the fans.
+The retirement's news surprised the office.
+The resignation's timing upset the board.
+The resignation's cause puzzled the staff.
+The resignation's effect hurt the campaign.
+The resignation's date surprised the press.
+The migration's route crossed the valley.
+The migration's timing helped the farmers.
+The migration's scale worried the village.
+The migration's pattern interested the students.
+The landing's impact shook the cabin.
+The landing's angle worried the pilot.
+The landing's noise startled the horses.
+The landing's timing pleased the crew.
+The falling's speed alarmed the climber.
+The falling's sound woke the guard.
+The falling's path puzzled the child.
+The falling's force damaged the roof.
+The rising's pace worried the bank.
+The rising's pattern surprised the analysts.
+The rising's speed troubled the doctor.
+The rising's timing helped the shop.
+The sleeping's length concerned the nurse.
+The sleeping's pattern worried the parent.
+The sleeping's sound amused the roommate.
+The sleeping's effect improved the mood.
+The walking's pace suited the group.
+The walking's rhythm calmed the baby.
+The walking's sound alerted the dog.
+The walking's style amused the coach.
+The running's speed impressed the trainer.
+The running's rhythm pleased the crowd.
+The running's sound woke the neighbor.
+The running's effect strengthened the team.
+The dancing's energy lifted the room.
+The dancing's style impressed the judge.
+The dancing's rhythm pleased the guests.
+The dancing's noise bothered the clerk.
+The swimming's pace surprised the coach.
+The swimming's form impressed the judge.
+The swimming's effect tired the child.
+The swimming's rhythm calmed the athlete.
+The breathing's sound worried the doctor.
+The breathing's pace alarmed the nurse.
+The breathing's pattern puzzled the specialist.
+The breathing's rhythm calmed the patient.
+The waiting's length annoyed the crowd.
+The waiting's cost troubled the owner.
+The waiting's effect tired the children.
+The waiting's reason puzzled the clerk.
+The withdrawal's timing shocked the bank.
+The withdrawal's size worried the cashier.
+The withdrawal's effect hurt the fund.
+The withdrawal's date surprised the lawyer.
+The child's arrival's timing surprised the guard.
+The child's arrival's noise woke the baby.
+The child's arrival's date suited the host.
+The child's arrival's speed worried the driver.
+The guest's departure's timing annoyed the staff.
+The guest's departure's delay upset the family.
+The guest's departure's route puzzled the guide.
+The guest's departure's sound startled the dog.
+The bird's movement's pattern interested the coach.
+The bird's movement's speed impressed the crowd.
+The bird's movement's rhythm pleased the dancer.
+The bird's movement's path confused the child.
+The actor's appearance's timing shocked the crowd.
+The actor's appearance's style amused the guests.
+The actor's appearance's effect pleased the director.
+The actor's appearance's suddenness startled the clerk.
+The dog's disappearance's cause troubled the police.
+The dog's disappearance's timing worried the owner.
+The dog's disappearance's mystery gripped the town.
+The dog's disappearance's effect upset the team.
+The plant's emergence's timing surprised the farmer.
+The plant's emergence's shape interested the doctor.
+The plant's emergence's pace worried the gardener.
+The plant's emergence's pattern interested the expert.
+The coach's retirement's date pleased the club.
+The coach's retirement's timing shocked the team.
+The coach's retirement's effect worried the fans.
+The coach's retirement's news surprised the office.
+The mayor's resignation's timing upset the board.
+The mayor's resignation's cause puzzled the staff.
+The mayor's resignation's effect hurt the campaign.
+The mayor's resignation's date surprised the press.
+The herd's migration's route crossed the valley.
+The herd's migration's timing helped the farmers.
+The herd's migration's scale worried the village.
+The herd's migration's pattern interested the students.
+The plane's landing's impact shook the cabin.
+The plane's landing's angle worried the pilot.
+The plane's landing's noise startled the horses.
+The plane's landing's timing pleased the crew.
+The rock's falling's speed alarmed the climber.
+The rock's falling's sound woke the guard.
+The rock's falling's path puzzled the child.
+The rock's falling's force damaged the roof.
+The river's rising's pace worried the bank.
+The river's rising's pattern surprised the locals.
+The river's rising's speed troubled the mayor.
+The river's rising's timing helped the shop.
+The baby's sleeping's length concerned the nurse.
+The baby's sleeping's pattern worried the parent.
+The baby's sleeping's sound amused the roommate.
+The baby's sleeping's effect improved the mood.
+The tourist's walking's pace suited the group.
+The tourist's walking's rhythm calmed the baby.
+The tourist's walking's sound alerted the dog.
+The tourist's walking's style amused the coach.
+The athlete's running's speed impressed the trainer.
+The athlete's running's rhythm pleased the crowd.
+The athlete's running's sound woke the neighbor.
+The athlete's running's effect strengthened the team.
+The couple's dancing's energy lifted the room.
+The couple's dancing's style impressed the judge.
+The couple's dancing's rhythm pleased the guests.
+The couple's dancing's noise bothered the clerk.
+The girl's swimming's pace surprised the coach.
+The girl's swimming's form impressed the judge.
+The girl's swimming's effect tired the child.
+The girl's swimming's rhythm calmed the athlete.
+The patient's breathing's sound worried the doctor.
+The patient's breathing's pace alarmed the nurse.
+The patient's breathing's pattern puzzled the expert.
+The patient's breathing's rhythm calmed the patient.
+The crowd's waiting's length annoyed the staff.
+The crowd's waiting's cost troubled the owner.
+The crowd's waiting's effect tired the children.
+The crowd's waiting's reason puzzled the clerk.
+The buyer's withdrawal's timing shocked the bank.
+The buyer's withdrawal's size worried the cashier.
+The buyer's withdrawal's effect hurt the fund.
+The buyer's withdrawal's date surprised the lawyer.
+The reading's effect impressed the class.
+The reading's pace bored the child.
+The reading's tone worried the parent.
+The reading's style pleased the editor.
+The writing's quality impressed the tutor.
+The writing's style pleased the editor.
+The writing's tone confused the reader.
+The writing's length annoyed the teacher.
+The cleaning's result pleased the manager.
+The cleaning's cost worried the owner.
+The cleaning's speed impressed the staff.
+The cleaning's smell bothered the guests.
+The painting's result pleased the owner.
+The painting's style impressed the judge.
+The painting's cost worried the buyer.
+The painting's pace annoyed the crew.
+The inspection's result worried the driver.
+The inspection's timing annoyed the owner.
+The inspection's cost surprised the buyer.
+The inspection's detail impressed the chief.
+The selection's result pleased the fans.
+The selection's method puzzled the players.
+The selection's timing surprised the club.
+The selection's fairness impressed the parents.
+The rejection's timing upset the writer.
+The rejection's reason puzzled the staff.
+The rejection's effect hurt the project.
+The rejection's tone annoyed the author.
+The admission's timing worried the family.
+The admission's cost shocked the parent.
+The admission's reason puzzled the nurse.
+The admission's effect helped the ward.
+The discussion's length tired the class.
+The discussion's tone worried the principal.
+The discussion's effect helped the students.
+The discussion's pace bored the guest.
+The translation's quality impressed the client.
+The translation's style pleased the reader.
+The translation's cost worried the office.
+The translation's delay annoyed the customer.
+The construction's cost worried the town.
+The construction's pace pleased the mayor.
+The construction's noise bothered the neighbors.
+The construction's result impressed the visitors.
+The destruction's cause puzzled the owner.
+The destruction's speed shocked the family.
+The destruction's effect hurt the farm.
+The destruction's scale worried the town.
+The payment's delay annoyed the seller.
+The payment's amount surprised the clerk.
+The payment's timing pleased the owner.
+The payment's method worried the bank.
+The treatment's effect pleased the patient.
+The treatment's cost worried the family.
+The treatment's length tired the child.
+The treatment's method impressed the nurse.
+The approval's timing surprised the staff.
+The approval's effect helped the team.
+The approval's delay annoyed the manager.
+The approval's reason puzzled the workers.
+The removal's result pleased the owner.
+The removal's cost worried the tenant.
+The removal's speed impressed the manager.
+The removal's method surprised the cleaner.
+The replacement's cost shocked the driver.
+The replacement's speed pleased the owner.
+The replacement's result impressed the buyer.
+The replacement's delay annoyed the customer.
+The closure's timing upset the shops.
+The closure's effect hurt the village.
+The closure's length worried the drivers.
+The closure's reason puzzled the public.
+The measurement's result worried the doctor.
+The measurement's method puzzled the student.
+The measurement's speed impressed the patient.
+The measurement's timing helped the clinic.
+The announcement's timing surprised the crowd.
+The announcement's tone pleased the guests.
+The announcement's delay annoyed the judges.
+The announcement's effect excited the children.
+The teacher's reading's effect impressed the class.
+The teacher's reading's pace bored the child.
+The teacher's reading's tone worried the parent.
+The teacher's reading's style pleased the editor.
+The student's writing's quality impressed the tutor.
+The student's writing's style pleased the editor.
+The student's writing's tone confused the reader.
+The student's writing's length annoyed the teacher.
+The worker's cleaning's result pleased the manager.
+The worker's cleaning's cost worried the owner.
+The worker's cleaning's speed impressed the staff.
+The worker's cleaning's smell bothered the guests.
+The artist's painting's result pleased the owner.
+The artist's painting's style impressed the judge.
+The artist's painting's cost worried the buyer.
+The artist's painting's pace annoyed the crew.
+The officer's inspection's result worried the driver.
+The officer's inspection's timing annoyed the owner.
+The officer's inspection's cost surprised the buyer.
+The officer's inspection's detail impressed the chief.
+The coach's selection's result pleased the fans.
+The coach's selection's method puzzled the players.
+The coach's selection's timing surprised the club.
+The coach's selection's fairness impressed the parents.
+The editor's rejection's timing upset the writer.
+The editor's rejection's reason puzzled the staff.
+The editor's rejection's effect hurt the project.
+The editor's rejection's tone annoyed the author.
+The doctor's admission's timing worried the family.
+The doctor's admission's cost shocked the parent.
+The doctor's admission's reason puzzled the nurse.
+The doctor's admission's effect helped the ward.
+The teacher's discussion's length tired the class.
+The teacher's discussion's tone worried the principal.
+The teacher's discussion's effect helped the students.
+The teacher's discussion's pace bored the guest.
+The clerk's translation's quality impressed the client.
+The clerk's translation's style pleased the reader.
+The clerk's translation's cost worried the office.
+The clerk's translation's delay annoyed the customer.
+The crew's construction's cost worried the town.
+The crew's construction's pace pleased the mayor.
+The crew's construction's noise bothered the neighbors.
+The crew's construction's result impressed the visitors.
+The storm's destruction's cause puzzled the owner.
+The storm's destruction's speed shocked the family.
+The storm's destruction's effect hurt the farm.
+The storm's destruction's scale worried the town.
+The buyer's payment's delay annoyed the seller.
+The buyer's payment's amount surprised the clerk.
+The buyer's payment's timing pleased the owner.
+The buyer's payment's method worried the bank.
+The doctor's treatment's effect pleased the patient.
+The doctor's treatment's cost worried the family.
+The doctor's treatment's length tired the child.
+The doctor's treatment's method impressed the nurse.
+The board's approval's timing surprised the staff.
+The board's approval's effect helped the team.
+The board's approval's delay annoyed the manager.
+The board's approval's reason puzzled the workers.
+The worker's removal's result pleased the owner.
+The worker's removal's cost worried the tenant.
+The worker's removal's speed impressed the manager.
+The worker's removal's method surprised the cleaner.
+The mechanic's replacement's cost shocked the driver.
+The mechanic's replacement's speed pleased the owner.
+The mechanic's replacement's result impressed the buyer.
+The mechanic's replacement's delay annoyed the customer.
+The mayor's closure's timing upset the shops.
+The mayor's closure's effect hurt the village.
+The mayor's closure's length worried the drivers.
+The mayor's closure's reason puzzled the public.
+The nurse's measurement's result worried the doctor.
+The nurse's measurement's method puzzled the student.
+The nurse's measurement's speed impressed the patient.
+The nurse's measurement's timing helped the clinic.
+The host's announcement's timing surprised the crowd.
+The host's announcement's tone pleased the guests.
+The host's announcement's delay annoyed the judges.
+The host's announcement's effect excited the children.
+The reading of the note's effect impressed the class.
+The reading of the note's pace bored the child.
+The reading of the note's tone worried the parent.
+The reading of the note's style pleased the editor.
+The writing of the essay's quality impressed the tutor.
+The writing of the essay's style pleased the editor.
+The writing of the essay's tone confused the reader.
+The writing of the essay's length annoyed the teacher.
+The cleaning of the floor's result pleased the manager.
+The cleaning of the floor's cost worried the owner.
+The cleaning of the floor's speed impressed the staff.
+The cleaning of the floor's smell bothered the guests.
+The painting of the wall's result pleased the owner.
+The painting of the wall's style impressed the judge.
+The painting of the wall's cost worried the buyer.
+The painting of the wall's pace annoyed the crew.
+The inspection of the car's result worried the driver.
+The inspection of the car's timing annoyed the owner.
+The inspection of the car's cost surprised the buyer.
+The inspection of the car's detail impressed the chief.
+The selection of the team's result pleased the fans.
+The selection of the team's method puzzled the players.
+The selection of the team's timing surprised the club.
+The selection of the team's fairness impressed the parents.
+The rejection of the draft's timing upset the writer.
+The rejection of the draft's reason puzzled the staff.
+The rejection of the draft's effect hurt the project.
+The rejection of the draft's tone annoyed the author.
+The admission of the patient's timing worried the family.
+The admission of the patient's cost shocked the parent.
+The admission of the patient's reason puzzled the nurse.
+The admission of the patient's effect helped the ward.
+The discussion of the book's length tired the class.
+The discussion of the book's tone worried the principal.
+The discussion of the book's effect helped the students.
+The discussion of the book's pace bored the guest.
+The translation of the letter's quality impressed the client.
+The translation of the letter's style pleased the reader.
+The translation of the letter's cost worried the office.
+The translation of the letter's delay annoyed the customer.
+The construction of the bridge's cost worried the town.
+The construction of the bridge's pace pleased the mayor.
+The construction of the bridge's noise bothered the neighbors.
+The construction of the bridge's result impressed the visitors.
+The destruction of the shed's cause puzzled the owner.
+The destruction of the shed's speed shocked the family.
+The destruction of the shed's effect hurt the farm.
+The destruction of the shed's scale worried the town.
+The payment of the bill's delay annoyed the seller.
+The payment of the bill's amount surprised the clerk.
+The payment of the bill's timing pleased the owner.
+The payment of the bill's method worried the bank.
+The treatment of the wound's effect pleased the patient.
+The treatment of the wound's cost worried the family.
+The treatment of the wound's length tired the child.
+The treatment of the wound's method impressed the nurse.
+The approval of the plan's timing surprised the staff.
+The approval of the plan's effect helped the team.
+The approval of the plan's delay annoyed the manager.
+The approval of the plan's reason puzzled the workers.
+The removal of the stain's result pleased the owner.
+The removal of the stain's cost worried the tenant.
+The removal of the stain's speed impressed the manager.
+The removal of the stain's method surprised the cleaner.
+The replacement of the tire's cost shocked the driver.
+The replacement of the tire's speed pleased the owner.
+The replacement of the tire's result impressed the buyer.
+The replacement of the tire's delay annoyed the customer.
+The closure of the road's timing upset the shops.
+The closure of the road's effect hurt the village.
+The closure of the road's length worried the drivers.
+The closure of the road's reason puzzled the public.
+The measurement of the pulse's result worried the doctor.
+The measurement of the pulse's method puzzled the student.
+The measurement of the pulse's speed impressed the patient.
+The measurement of the pulse's timing helped the clinic.
+The announcement of the winner's timing surprised the crowd.
+The announcement of the winner's tone pleased the guests.
+The announcement of the winner's delay annoyed the judges.
+The announcement of the winner's effect excited the children.
+The teacher's reading of the note's effect impressed the class.
+The teacher's reading of the note's pace bored the child.
+The teacher's reading of the note's tone worried the parent.
+The teacher's reading of the note's style pleased the editor.
+The student's writing of the essay's quality impressed the tutor.
+The student's writing of the essay's style pleased the editor.
+The student's writing of the essay's tone confused the reader.
+The student's writing of the essay's length annoyed the teacher.
+The worker's cleaning of the floor's result pleased the manager.
+The worker's cleaning of the floor's cost worried the owner.
+The worker's cleaning of the floor's speed impressed the staff.
+The worker's cleaning of the floor's smell bothered the guests.
+The artist's painting of the wall's result pleased the owner.
+The artist's painting of the wall's style impressed the judge.
+The artist's painting of the wall's cost worried the buyer.
+The artist's painting of the wall's pace annoyed the crew.
+The officer's inspection of the car's result worried the driver.
+The officer's inspection of the car's timing annoyed the owner.
+The officer's inspection of the car's cost surprised the buyer.
+The officer's inspection of the car's detail impressed the chief.
+The coach's selection of the team's result pleased the fans.
+The coach's selection of the team's method puzzled the players.
+The coach's selection of the team's timing surprised the club.
+The coach's selection of the team's fairness impressed the parents.
+The editor's rejection of the draft's timing upset the writer.
+The editor's rejection of the draft's reason puzzled the staff.
+The editor's rejection of the draft's effect hurt the project.
+The editor's rejection of the draft's tone annoyed the author.
+The doctor's admission of the patient's timing worried the family.
+The doctor's admission of the patient's cost shocked the parent.
+The doctor's admission of the patient's reason puzzled the nurse.
+The doctor's admission of the patient's effect helped the ward.
+The teacher's discussion of the book's length tired the class.
+The teacher's discussion of the book's tone worried the principal.
+The teacher's discussion of the book's effect helped the students.
+The teacher's discussion of the book's pace bored the guest.
+The clerk's translation of the letter's quality impressed the client.
+The clerk's translation of the letter's style pleased the reader.
+The clerk's translation of the letter's cost worried the office.
+The clerk's translation of the letter's delay annoyed the customer.
+The crew's construction of the bridge's cost worried the town.
+The crew's construction of the bridge's pace pleased the mayor.
+The crew's construction of the bridge's noise bothered the neighbors.
+The crew's construction of the bridge's result impressed the visitors.
+The storm's destruction of the shed's cause puzzled the owner.
+The storm's destruction of the shed's speed shocked the family.
+The storm's destruction of the shed's effect hurt the farm.
+The storm's destruction of the shed's scale worried the town.
+The buyer's payment of the bill's delay annoyed the seller.
+The buyer's payment of the bill's amount surprised the clerk.
+The buyer's payment of the bill's timing pleased the owner.
+The buyer's payment of the bill's method worried the bank.
+The doctor's treatment of the wound's effect pleased the patient.
+The doctor's treatment of the wound's cost worried the family.
+The doctor's treatment of the wound's length tired the child.
+The doctor's treatment of the wound's method impressed the nurse.
+The board's approval of the plan's timing surprised the staff.
+The board's approval of the plan's effect helped the team.
+The board's approval of the plan's delay annoyed the manager.
+The board's approval of the plan's reason puzzled the workers.
+The worker's removal of the stain's result pleased the owner.
+The worker's removal of the stain's cost worried the tenant.
+The worker's removal of the stain's speed impressed the manager.
+The worker's removal of the stain's method surprised the cleaner.
+The mechanic's replacement of the tire's cost shocked the driver.
+The mechanic's replacement of the tire's speed pleased the owner.
+The mechanic's replacement of the tire's result impressed the buyer.
+The mechanic's replacement of the tire's delay annoyed the customer.
+The mayor's closure of the road's timing upset the shops.
+The mayor's closure of the road's effect hurt the village.
+The mayor's closure of the road's length worried the drivers.
+The mayor's closure of the road's reason puzzled the public.
+The nurse's measurement of the pulse's result worried the doctor.
+The nurse's measurement of the pulse's method puzzled the student.
+The nurse's measurement of the pulse's speed impressed the patient.
+The nurse's measurement of the pulse's timing helped the clinic.
+The host's announcement of the winner's timing surprised the crowd.
+The host's announcement of the winner's tone pleased the guests.
+The host's announcement of the winner's delay annoyed the judges.
+The host's announcement of the winner's effect excited the children.

@@ -1,0 +1,14 @@
+name: anc-typology-bias
+dependencies:
+  - python=3.10.19
+  - pip
+  - pip:
+      - torch==2.11.0
+      - transformers==5.5.0
+      - datasets==4.8.4
+      - accelerate==1.13.0
+      - numpy==2.2.6
+      - spacy==3.8.15
+      - tqdm==4.70.0
+      - pydelphin==1.11.0
+      - cairosvg==2.9.0
