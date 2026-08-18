@@ -41,10 +41,14 @@ STRATEGY_LABEL = {
 }
 COMP_LABEL = {"balancing": "Balancing", "deranking": "Deranking"}
 
-W, H_WITH_LEGEND, H_NO_LEGEND = 880, 652, 486
+W = 880
+H_OVERALL_WITH_LEGEND = 652
+H_PHENOMENON_WITH_LEGEND = 556
+H_NO_LEGEND = 486
 GX = 116
 CW = 88
-CH_WITH_LEGEND = 42
+CH_OVERALL_WITH_LEGEND = 42
+CH_PHENOMENON_WITH_LEGEND = 34
 CH_NO_LEGEND = 34
 NCOLS = 8
 NROWS = 12
@@ -52,7 +56,8 @@ GRID_W = CW * NCOLS
 GREEN = (31, 122, 62)
 WHITE = (255, 255, 255)
 ORANGE = "#d95f02"
-VMIN, VMAX = 0.50, 1.00
+OVERALL_SCALE = (0.70, 1.00)
+PHENOMENON_SCALE = (0.50, 1.00)
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open() as f:
@@ -71,8 +76,9 @@ def rgb_to_hex(rgb: tuple[float, float, float]) -> str:
         max(0, min(255, int(round(v)))) for v in rgb
     )
 
-def cell_color(acc: float) -> str:
-    t = max(0.0, min(1.0, (acc - VMIN) / (VMAX - VMIN)))
+def cell_color(acc: float, scale: tuple[float, float]) -> str:
+    vmin, vmax = scale
+    t = max(0.0, min(1.0, (acc - vmin) / (vmax - vmin)))
     return rgb_to_hex(tuple(WHITE[i] * (1 - t) + GREEN[i] * t for i in range(3)))
 
 def luminance(hex_color: str) -> float:
@@ -141,6 +147,7 @@ def add_cells(
     gy: float,
     ch: float,
     integer_values: bool,
+    scale: tuple[float, float],
 ) -> None:
     row_i = 0
     cols = [(comp, strategy) for comp in COMP_ORDER for strategy in STRATEGY_ORDER]
@@ -157,7 +164,7 @@ def add_cells(
                 for j, (comp, strategy) in enumerate(cols):
                     x = GX + j * CW
                     acc, bad_parse = values[(clause_wo, np_wo, alignment, comp, strategy)]
-                    fill = cell_color(acc)
+                    fill = cell_color(acc, scale)
                     parts.append(rect(x, y, CW, ch, fill=fill, stroke="#fff", sw=1.2))
                     fg = "#111" if luminance(fill) > 0.42 else "#fff"
                     label = f"{acc * 100:.0f}" if integer_values else f"{acc * 100:.1f}"
@@ -177,7 +184,8 @@ def add_cells(
                         )
                 row_i += 1
 
-def add_legend(parts: list[str], gy: float, grid_h: float) -> None:
+def add_legend(parts: list[str], gy: float, grid_h: float, scale: tuple[float, float]) -> None:
+    vmin, vmax = scale
     bar_w = 220
     bar_h = 11
     bar_y = gy + grid_h + 18
@@ -186,12 +194,12 @@ def add_legend(parts: list[str], gy: float, grid_h: float) -> None:
     steps = 80
 
     for i in range(steps):
-        acc = VMIN + (i / (steps - 1)) * (VMAX - VMIN)
+        acc = vmin + (i / (steps - 1)) * (vmax - vmin)
         x = left_x + i * bar_w / steps
-        parts.append(rect(x, bar_y, bar_w / steps + 0.7, bar_h, fill=cell_color(acc)))
+        parts.append(rect(x, bar_y, bar_w / steps + 0.7, bar_h, fill=cell_color(acc, scale)))
     parts.append(rect(left_x, bar_y, bar_w, bar_h, stroke="#888", sw=0.6))
-    parts.append(text("small", "50", left_x, bar_y + 28))
-    parts.append(text("small", "100", left_x + bar_w, bar_y + 28, "end"))
+    parts.append(text("small", f"{vmin * 100:.0f}", left_x, bar_y + 28))
+    parts.append(text("small", f"{vmax * 100:.0f}", left_x + bar_w, bar_y + 28, "end"))
     parts.append(text("small", "Accuracy", left_x + bar_w / 2, bar_y + 28, "middle"))
 
     parts.append(rect(right_x, bar_y + 4, bar_w, 3.2, fill=ORANGE, rx=1.6, opacity=0.82))
@@ -205,10 +213,20 @@ def write_heatmap(
     *,
     legend: bool,
     integer_values: bool,
+    layout: str,
 ) -> None:
-    ch = CH_WITH_LEGEND if legend else CH_NO_LEGEND
-    h = H_WITH_LEGEND if legend else H_NO_LEGEND
-    gy = 92 if legend else 70
+    if layout == "overall":
+        ch = CH_OVERALL_WITH_LEGEND if legend else CH_NO_LEGEND
+        h = H_OVERALL_WITH_LEGEND if legend else H_NO_LEGEND
+        gy = 92 if legend else 70
+        scale = OVERALL_SCALE
+    elif layout == "phenomenon":
+        ch = CH_PHENOMENON_WITH_LEGEND if legend else CH_NO_LEGEND
+        h = H_PHENOMENON_WITH_LEGEND if legend else H_NO_LEGEND
+        gy = 70
+        scale = PHENOMENON_SCALE
+    else:
+        raise ValueError(f"unknown heatmap layout: {layout}")
     grid_h = ch * NROWS
 
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}">']
@@ -219,10 +237,10 @@ def write_heatmap(
     )
     parts.append(rect(0, 0, W, h, fill="#fff"))
     add_headers(parts, gy)
-    add_cells(parts, values, gy=gy, ch=ch, integer_values=integer_values)
+    add_cells(parts, values, gy=gy, ch=ch, integer_values=integer_values, scale=scale)
     parts.append(rect(GX, gy, GRID_W, grid_h, stroke="#333", sw=1))
     if legend:
-        add_legend(parts, gy, grid_h)
+        add_legend(parts, gy, grid_h, scale)
     parts.append("</svg>")
 
     svg_path = OUTDIR / f"{stem}.svg"
@@ -292,19 +310,22 @@ def main() -> None:
         grouped_values(mean_rows, bad_rates),
         legend=True,
         integer_values=False,
+        layout="overall",
     )
     write_heatmap(
         "00_anc_only_accuracy_heatmap",
         grouped_values(mean_rows, bad_rates, phenomena_prefixes=("4_", "5_", "6_")),
         legend=True,
         integer_values=False,
+        layout="overall",
     )
     for phenomenon, stem in phenomena:
         write_heatmap(
             stem,
             phenomenon_values(mean_rows, bad_rates, phenomenon),
-            legend=False,
-            integer_values=True,
+            legend=True,
+            integer_values=False,
+            layout="phenomenon",
         )
 
 if __name__ == "__main__":
