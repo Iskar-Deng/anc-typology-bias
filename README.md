@@ -2,7 +2,7 @@
 
 This repository provides a grammar-engineered pipeline for studying action nominal constructions (ANCs) across 96 grammatical configurations and comparing model learning preferences with natural language typology. It includes code for grammar construction, synthetic corpus generation, model training, and evaluation.
 
-The grammatical configurations are provided in [choices/](choices/). Aggregated results are available in [results/](results/), with corresponding visualizations in [figures/](figures/).
+The grammatical configurations are provided in [choices](choices/). Aggregated results are available in [results](results/), with corresponding visualizations in [figures](figures/).
 
 ## Setup
 
