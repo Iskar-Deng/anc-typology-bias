@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 # evaluation/pairs_building/phenomena/2_3_gen_order/rules.py
 
 """
@@ -175,6 +172,9 @@ def perturb(
         }
 
     bad_tokens = swap_np_order(tokens, target_np)
+    # Restore sentence-initial capitalization after moving the words.
+    bad_tokens = [token.lower() for token in bad_tokens]
+    bad_tokens[0] = bad_tokens[0][:1].upper() + bad_tokens[0][1:]
     good_value = "possessor_head" if np_wo == "gn" else "head_possessor"
     bad_value = "head_possessor" if np_wo == "gn" else "possessor_head"
 

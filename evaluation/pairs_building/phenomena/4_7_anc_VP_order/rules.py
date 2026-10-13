@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 # evaluation/pairs_building/phenomena/4_7_anc_VP_order/rules.py
 
 """

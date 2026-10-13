@@ -1,8 +1,14 @@
 # ANC Typology Bias
 
-Pipeline for the paper experiments.
+This repository provides a grammar-engineered pipeline for studying action nominal constructions (ANCs) across 96 grammatical configurations and comparing model learning preferences with natural language typology. It includes code for grammar construction, synthetic corpus generation, model training, and evaluation.
 
-## Environment
+The grammatical configurations are provided in [choices/](choices/). Aggregated results are available in [results/](results/), with corresponding visualizations in [figures/](figures/).
+
+## Setup
+
+Follow the commands below to complete the setup. Run all commands from the repository root.
+
+### Environment
 
 ```bash
 conda env create -f environment.yml
@@ -12,8 +18,7 @@ python -m spacy download en_core_web_md
 
 ### External Tools
 
-- Grammar Matrix: https://matrix.ling.washington.edu/index.html
-- ACE: https://sweaglesw.org/linguistics/ace/
+The pipeline uses the [Grammar Matrix](https://matrix.ling.washington.edu/index.html) for grammar customization and [ACE](https://sweaglesw.org/linguistics/ace/) for parsing and generation.
 
 ```bash
 mkdir -p artifact/tools
@@ -27,7 +32,15 @@ tar -xzf /tmp/ace.tar.gz -C artifact/tools/ace --strip-components=1
 chmod +x artifact/tools/ace/ace
 ```
 
+### Paths
+
+Set `ARTIFACT_ROOT` in `utils.py` to the absolute path of your artifact directory. To store data, grammars, or models elsewhere, you can set the corresponding paths individually. The batch scripts read these settings automatically, but you will need to update the explicit paths in individual example commands accordingly.
+
 ## Pipeline
+
+![Corpus-generation pipeline](figures/pipeline.png)
+
+*Overview of the corpus-generation pipeline.*
 
 ### 1. Data Processing
 
@@ -100,9 +113,9 @@ python -m semantic_extraction.parse_pseudo_with_grammar \
   --output artifact/data/dev/dev_mrs.jsonl
 ```
 
-### 3. Target Grammar Build
+### 3. Target Grammar Construction
 
-Generate target choice files:
+Generate target choices files:
 
 ```bash
 python -m grammar_build.generate_choices \
@@ -235,8 +248,8 @@ Score one minimal-pair file:
 
 ```bash
 python -m evaluation.scoring.score_pairs \
-  --pairs artifact/eval_materials/1_1_intran_V_form/pairs/00_sov_gn_ac_b_se.pairs.jsonl \
-  --model artifact/models/gpt2-small/00_sov_gn_ac_b_se/seed_42
+  --pairs artifact/eval_materials/1_1_intran_V_form/pairs/62_svo_ng_er_d_ep.pairs.jsonl \
+  --model artifact/models/gpt2-small/62_svo_ng_er_d_ep/seed_42
 ```
 
 Score all minimal-pair files for the three reported seeds:
@@ -247,15 +260,15 @@ bash evaluation/scoring/score_all_pairs.sh seed_43
 bash evaluation/scoring/score_all_pairs.sh seed_44
 ```
 
-Check bad-parse rate for one minimal-pair file:
+Check BAD parse rate for one minimal-pair file:
 
 ```bash
 python -m evaluation.scoring.check_bad_parse \
-  --pairs artifact/eval_materials/1_1_intran_V_form/pairs/00_sov_gn_ac_b_se.pairs.jsonl \
-  --grammar artifact/grammars/00_sov_gn_ac_b_se/00_sov_gn_ac_b_se.dat
+  --pairs artifact/eval_materials/1_1_intran_V_form/pairs/62_svo_ng_er_d_ep.pairs.jsonl \
+  --grammar artifact/grammars/62_svo_ng_er_d_ep/62_svo_ng_er_d_ep.dat
 ```
 
-Check bad-parse rates for all minimal-pair files:
+Check BAD parse rates for all minimal-pair files:
 
 ```bash
 bash evaluation/scoring/check_all_bad_parse.sh
@@ -316,8 +329,6 @@ python -m evaluation.scoring.score_pairs \
   --model artifact/models/gpt2-small/english_baseline/seed_42 \
   --checkpoint checkpoint-450000
 ```
-
-Repeat with `seed_43` and `seed_44` if reporting English baseline over three seeds.
 
 ### 9. Aggregation and Figures
 

@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 # evaluation/pairs_building/phenomena/3_5_clausal_comp_V_order/rules.py
 
 """
@@ -142,6 +139,10 @@ def perturb(
             "tokens": tokens,
             "template": parsed.template_name,
         }
+
+    # Restore sentence-initial capitalization after moving the words.
+    bad_tokens = [token.lower() for token in bad_tokens]
+    bad_tokens[0] = bad_tokens[0][:1].upper() + bad_tokens[0][1:]
 
     good_order = comp_v_order_value(embedded.start, parsed.matrix_verb_index)
     bad_order = "V_COMP" if good_order == "COMP_V" else "COMP_V"

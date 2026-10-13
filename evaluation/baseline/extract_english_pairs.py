@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 # evaluation/baseline/extract_english_pairs.py
 
 """

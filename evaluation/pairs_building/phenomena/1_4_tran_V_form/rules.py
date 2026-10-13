@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 # evaluation/pairs_building/phenomena/1_4_tran_V_form/rules.py
 
 """

@@ -1,17 +1,18 @@
-#!/usr/bin/env python3
-
 # evaluation/make_heatmaps.py
 
-"""
-Generate accuracy heatmaps from three-seed mean scores and BAD parse rates.
+"""Generate the paper's overall, ANC-related, and appendix heatmaps.
 
-Usage:
-python -m evaluation.make_heatmaps
+Run from the repository root: python -m evaluation.make_heatmaps
+An optional --output-dir redirects all figures without changing input data.
+Outputs are PDF, SVG, and PNG. Input accuracies are already averaged over seeds.
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
+from collections import defaultdict
+from itertools import product
 from pathlib import Path
 
 import cairosvg
@@ -19,57 +20,41 @@ import cairosvg
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results"
 OUTDIR = ROOT / "figures" / "evaluation"
-PHENOMENA_MANIFEST = ROOT / "evaluation" / "phenomena_manifest.tsv"
-
 MEAN_SCORES = RESULTS / "mean_scores.tsv"
 BAD_PARSE = RESULTS / "bad_parse.tsv"
+PHENOMENA_MANIFEST = ROOT / "evaluation" / "phenomena_manifest.tsv"
 
 CLAUSE_ORDER = ["sov", "svo", "vos"]
 NP_ORDER = ["gn", "ng"]
 ALIGN_ORDER = ["nom-acc", "erg-abs"]
 COMP_ORDER = ["balancing", "deranking"]
 STRATEGY_ORDER = ["sent", "poss-acc", "erg-poss", "nomn"]
-
-WO_LABEL = {"sov": "SOV", "svo": "SVO", "vos": "VOS"}
-NP_LABEL = {"gn": "GN", "ng": "NG"}
 ALIGN_LABEL = {"nom-acc": "NOM-ACC", "erg-abs": "ERG-ABS"}
-STRATEGY_LABEL = {
-    "sent": "SENT",
-    "poss-acc": "POSS-ACC",
-    "erg-poss": "ERG-POSS",
-    "nomn": "NOMN",
-}
 COMP_LABEL = {"balancing": "Balancing", "deranking": "Deranking"}
-
-W = 880
-H_OVERALL_WITH_LEGEND = 652
-H_PHENOMENON_WITH_LEGEND = 556
-H_NO_LEGEND = 486
-GX = 116
-CW = 88
-CH_OVERALL_WITH_LEGEND = 42
-CH_PHENOMENON_WITH_LEGEND = 34
-CH_NO_LEGEND = 34
-NCOLS = 8
-NROWS = 12
-GRID_W = CW * NCOLS
 GREEN = (31, 122, 62)
 WHITE = (255, 255, 255)
-ORANGE = "#d95f02"
 OVERALL_SCALE = (0.70, 1.00)
 PHENOMENON_SCALE = (0.50, 1.00)
+
+CELL_W = 76
+CELL_H = 34
+GRID_X = 132
+GRID_Y = 108
+GRID_W = CELL_W * 8
+GRID_H = CELL_H * 12
+PANEL_W = GRID_X + GRID_W
+HEIGHT = GRID_Y + GRID_H + 6
+SVG_STYLE = (
+    '<defs><style>text{font-family:"Liberation Serif","Times New Roman",serif}'
+    '.title{font-size:26px;font-weight:bold}.group{font-size:23px}'
+    '.strategy{font-size:21px}.row{font-size:22px}'
+    '.alignment{font-size:23px}.number{font-size:23px;font-weight:bold}'
+    '</style></defs>'
+)
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open() as f:
         return list(csv.DictReader(f, delimiter="\t"))
-
-def read_phenomena_manifest(path: Path) -> list[tuple[str, str]]:
-    rows = read_tsv(path)
-    required = {"phenomenon", "figure_stem"}
-    missing = required - set(rows[0]) if rows else required
-    if missing:
-        raise ValueError(f"{path} missing required columns: {sorted(missing)}")
-    return [(row["phenomenon"], row["figure_stem"]) for row in rows]
 
 def rgb_to_hex(rgb: tuple[float, float, float]) -> str:
     return "#%02x%02x%02x" % tuple(
@@ -132,124 +117,6 @@ def text(
         attrs.append(f'fill="{fill}"')
     return "<text " + " ".join(attrs) + f">{esc(value)}</text>"
 
-def add_headers(parts: list[str], gy: float) -> None:
-    for j, (comp, strategy) in enumerate(
-        (comp, strategy) for comp in COMP_ORDER for strategy in STRATEGY_ORDER
-    ):
-        cx = GX + j * CW + CW / 2
-        parts.append(text("lab", STRATEGY_LABEL[strategy], cx, gy - 18, "middle"))
-        parts.append(text("comp", COMP_LABEL[comp], cx, gy - 5, "middle"))
-
-def add_cells(
-    parts: list[str],
-    values: dict[tuple[str, str, str, str, str], tuple[float, float]],
-    *,
-    gy: float,
-    ch: float,
-    integer_values: bool,
-    scale: tuple[float, float],
-) -> None:
-    row_i = 0
-    cols = [(comp, strategy) for comp in COMP_ORDER for strategy in STRATEGY_ORDER]
-    for alignment in ALIGN_ORDER:
-        for clause_wo in CLAUSE_ORDER:
-            for np_wo in NP_ORDER:
-                y = gy + row_i * ch
-                parts.append(
-                    text("lab", f"{WO_LABEL[clause_wo]}/{NP_LABEL[np_wo]}", 104, y + ch * 0.38, "end")
-                )
-                parts.append(
-                    text("lab", ALIGN_LABEL[alignment], 104, y + ch * 0.82, "end")
-                )
-                for j, (comp, strategy) in enumerate(cols):
-                    x = GX + j * CW
-                    acc, bad_parse = values[(clause_wo, np_wo, alignment, comp, strategy)]
-                    fill = cell_color(acc, scale)
-                    parts.append(rect(x, y, CW, ch, fill=fill, stroke="#fff", sw=1.2))
-                    fg = "#111" if luminance(fill) > 0.42 else "#fff"
-                    label = f"{acc * 100:.0f}" if integer_values else f"{acc * 100:.1f}"
-                    parts.append(text("num", label, x + CW / 2, y + ch * 0.62, "middle", fg))
-                    if bad_parse > 0:
-                        bar_w = max(2.0, min(75.0, bad_parse * 75.0))
-                        parts.append(
-                            rect(
-                                x + 6.5,
-                                y + ch - 5.5,
-                                bar_w,
-                                3 if ch >= 40 else 2.6,
-                                fill=ORANGE,
-                                rx=1.5,
-                                opacity=0.82,
-                            )
-                        )
-                row_i += 1
-
-def add_legend(parts: list[str], gy: float, grid_h: float, scale: tuple[float, float]) -> None:
-    vmin, vmax = scale
-    bar_w = 220
-    bar_h = 11
-    bar_y = gy + grid_h + 18
-    left_x = GX
-    right_x = GX + GRID_W - bar_w
-    steps = 80
-
-    for i in range(steps):
-        acc = vmin + (i / (steps - 1)) * (vmax - vmin)
-        x = left_x + i * bar_w / steps
-        parts.append(rect(x, bar_y, bar_w / steps + 0.7, bar_h, fill=cell_color(acc, scale)))
-    parts.append(rect(left_x, bar_y, bar_w, bar_h, stroke="#888", sw=0.6))
-    parts.append(text("small", f"{vmin * 100:.0f}", left_x, bar_y + 28))
-    parts.append(text("small", f"{vmax * 100:.0f}", left_x + bar_w, bar_y + 28, "end"))
-    parts.append(text("small", "Accuracy", left_x + bar_w / 2, bar_y + 28, "middle"))
-
-    parts.append(rect(right_x, bar_y + 4, bar_w, 3.2, fill=ORANGE, rx=1.6, opacity=0.82))
-    parts.append(text("small", "0", right_x, bar_y + 28))
-    parts.append(text("small", "100", right_x + bar_w, bar_y + 28, "end"))
-    parts.append(text("small", "BAD parse rate", right_x + bar_w / 2, bar_y + 28, "middle"))
-
-def write_heatmap(
-    stem: str,
-    values: dict[tuple[str, str, str, str, str], tuple[float, float]],
-    *,
-    legend: bool,
-    integer_values: bool,
-    layout: str,
-) -> None:
-    if layout == "overall":
-        ch = CH_OVERALL_WITH_LEGEND if legend else CH_NO_LEGEND
-        h = H_OVERALL_WITH_LEGEND if legend else H_NO_LEGEND
-        gy = 92 if legend else 70
-        scale = OVERALL_SCALE
-    elif layout == "phenomenon":
-        ch = CH_PHENOMENON_WITH_LEGEND if legend else CH_NO_LEGEND
-        h = H_PHENOMENON_WITH_LEGEND if legend else H_NO_LEGEND
-        gy = 70
-        scale = PHENOMENON_SCALE
-    else:
-        raise ValueError(f"unknown heatmap layout: {layout}")
-    grid_h = ch * NROWS
-
-    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}">']
-    parts.append(
-        '<defs><style>text{font-family:Arial,Helvetica,sans-serif}'
-        '.lab{font-size:11px;fill:#111}.num{font-size:13px;font-weight:700}'
-        '.small{font-size:12px;fill:#555}.comp{font-size:11px;fill:#555}</style></defs>'
-    )
-    parts.append(rect(0, 0, W, h, fill="#fff"))
-    add_headers(parts, gy)
-    add_cells(parts, values, gy=gy, ch=ch, integer_values=integer_values, scale=scale)
-    parts.append(rect(GX, gy, GRID_W, grid_h, stroke="#333", sw=1))
-    if legend:
-        add_legend(parts, gy, grid_h, scale)
-    parts.append("</svg>")
-
-    svg_path = OUTDIR / f"{stem}.svg"
-    pdf_path = OUTDIR / f"{stem}.pdf"
-    svg_path.write_text("\n".join(parts), encoding="utf-8")
-    cairosvg.svg2pdf(url=str(svg_path), write_to=str(pdf_path))
-    print(svg_path.relative_to(ROOT))
-    print(pdf_path.relative_to(ROOT))
-
 def key_for(row: dict[str, str]) -> tuple[str, str, str, str, str]:
     return (
         row["clause_wo"],
@@ -265,68 +132,164 @@ def bad_parse_lookup(rows: list[dict[str, str]]) -> dict[tuple[str, str], float]
         for row in rows
     }
 
-def grouped_values(
-    rows: list[dict[str, str]],
-    bad_rates: dict[tuple[str, str], float],
-    *,
-    phenomena_prefixes: tuple[str, ...] | None = None,
-) -> dict[tuple[str, str, str, str, str], tuple[float, float]]:
-    grouped: dict[tuple[str, str, str, str, str], dict[str, float]] = {}
+def aggregate(rows, prefixes=None):
+    grouped = defaultdict(list)
     for row in rows:
-        if phenomena_prefixes and not row["phenomenon"].startswith(phenomena_prefixes):
-            continue
-        key = key_for(row)
-        n_pairs = int(row["n_pairs"])
-        bucket = grouped.setdefault(key, {"n": 0.0, "acc": 0.0, "bad": 0.0})
-        bucket["n"] += n_pairs
-        bucket["acc"] += float(row["accuracy"]) * n_pairs
-        bucket["bad"] += bad_rates[(row["phenomenon"], row["language"])] * n_pairs
-    return {key: (val["acc"] / val["n"], val["bad"] / val["n"]) for key, val in grouped.items()}
-
-def phenomenon_values(
-    rows: list[dict[str, str]],
-    bad_rates: dict[tuple[str, str], float],
-    phenomenon: str,
-) -> dict[tuple[str, str, str, str, str], tuple[float, float]]:
-    values = {}
-    for row in rows:
-        if row["phenomenon"] != phenomenon:
-            continue
-        values[key_for(row)] = (
-            float(row["accuracy"]),
-            bad_rates[(row["phenomenon"], row["language"])],
+        if prefixes is None or row["phenomenon"].startswith(prefixes):
+            grouped[key_for(row)].append(row)
+    expected = 34 if prefixes is None else 15
+    if len(grouped) != 96:
+        raise ValueError("Expected 96 grammar configurations")
+    result = {}
+    for key, items in grouped.items():
+        if len(items) != expected or len({r["phenomenon"] for r in items}) != expected:
+            raise ValueError(f"Unexpected phenomenon coverage for {key}")
+        if any(int(r["n_pairs"]) != 100 for r in items):
+            raise ValueError(f"Expected 100 pairs per phenomenon for {key}")
+        result[key] = sum(float(r["accuracy"]) * int(r["n_pairs"]) for r in items) / sum(
+            int(r["n_pairs"]) for r in items
         )
-    return values
+    return result
 
-def main() -> None:
-    OUTDIR.mkdir(parents=True, exist_ok=True)
-    mean_rows = read_tsv(MEAN_SCORES)
+def panel(parts, offset, title, values, *, scale=OVERALL_SCALE, bad_rates=None):
+    parts.append(f'<g transform="translate({offset},0)">')
+    if title:
+        parts.append(text("title", title, GRID_X + GRID_W / 2, 28, "middle"))
+    for ci, comp in enumerate(COMP_ORDER):
+        start = GRID_X + ci * CELL_W * 4
+        parts.append(text("group", COMP_LABEL[comp], start + CELL_W * 2, 57, "middle"))
+        parts.append(rect(start + 3, 64, CELL_W * 4 - 6, 0.8, fill="#888"))
+        for si, strategy in enumerate(STRATEGY_ORDER):
+            x = start + (si + 0.5) * CELL_W
+            labels = strategy.upper().split("-")
+            if len(labels) == 2:
+                parts.append(text("strategy", labels[0] + "-", x, 84, "middle"))
+                parts.append(text("strategy", labels[1], x, 103, "middle"))
+            else:
+                parts.append(text("strategy", labels[0], x, 94, "middle"))
+
+    row_index = 0
+    for alignment in ALIGN_ORDER:
+        center_y = GRID_Y + (row_index + 3) * CELL_H
+        parts.append(
+            f'<g transform="translate(19,{center_y}) rotate(-90)">'
+            + text("alignment", ALIGN_LABEL[alignment], 0, 0, "middle") + "</g>"
+        )
+        for clause in CLAUSE_ORDER:
+            for np_order in NP_ORDER:
+                y = GRID_Y + row_index * CELL_H
+                parts.append(text("row", f"{clause.upper()}/{np_order.upper()}", GRID_X - 8, y + 24, "end"))
+                for ci, comp in enumerate(COMP_ORDER):
+                    for si, strategy in enumerate(STRATEGY_ORDER):
+                        x = GRID_X + (ci * 4 + si) * CELL_W
+                        accuracy = values[(clause, np_order, alignment, comp, strategy)]
+                        color = cell_color(accuracy, scale)
+                        foreground = "#111" if luminance(color) > 0.42 else "#fff"
+                        parts.append(rect(x, y, CELL_W, CELL_H, fill=color, stroke="#fff", sw=1))
+                        baseline = y + (22 if bad_rates is not None else 24)
+                        parts.append(text("number", f"{accuracy * 100:.1f}", x + CELL_W / 2, baseline, "middle", foreground))
+                        if bad_rates is not None:
+                            rate = bad_rates[(clause, np_order, alignment, comp, strategy)]
+                            if not 0 <= rate <= 1:
+                                raise ValueError(f"Invalid BAD parse rate: {rate}")
+                            track_width = CELL_W - 12
+                            parts.append(rect(x + 6, y + 27, track_width, 4, fill="#fff", stroke="#999", sw=0.5))
+                            if rate > 0:
+                                parts.append(rect(x + 6, y + 27, track_width * rate, 4, fill="#d95f02"))
+                row_index += 1
+    parts.append(rect(GRID_X, GRID_Y, GRID_W, GRID_H, stroke="#555", sw=0.8))
+    parts.append(rect(GRID_X, GRID_Y + 6 * CELL_H - 1, GRID_W, 2, fill="#555"))
+    parts.append(rect(GRID_X + 4 * CELL_W - 1, GRID_Y, 2, GRID_H, fill="#555"))
+    parts.append("</g>")
+
+def validate_data(rows, bad_rows, manifest):
+    """Reject incomplete grids or invalid rates before producing figures."""
+    names = [row["phenomenon"] for row in manifest]
+    stems = [row["figure_stem"] for row in manifest]
+    if len(names) != 34 or len(set(names)) != 34 or len(set(stems)) != 34:
+        raise ValueError("Expected 34 unique phenomena and figure stems")
+    expected_keys = set(product(CLAUSE_ORDER, NP_ORDER, ALIGN_ORDER,
+                                COMP_ORDER, STRATEGY_ORDER))
+    if set(row["phenomenon"] for row in rows) != set(names):
+        raise ValueError("Scores do not match the phenomenon manifest")
+    for name in names:
+        selected = [r for r in rows if r["phenomenon"] == name]
+        if len(selected) != 96 or {key_for(r) for r in selected} != expected_keys:
+            raise ValueError(f"Expected 96 unique configurations for {name}")
+    score_ids = [(r["phenomenon"], r["language"]) for r in rows]
+    bad_ids = [(r["phenomenon"], r["language"]) for r in bad_rows]
+    if (len(set(score_ids)) != len(score_ids)
+            or len(set(bad_ids)) != len(bad_ids)
+            or set(score_ids) != set(bad_ids)):
+        raise ValueError("Score and BAD parse rows must match without duplicates")
+    for row in rows:
+        if not 0 <= float(row["accuracy"]) <= 1 or int(row["n_pairs"]) != 100:
+            raise ValueError("Expected valid accuracies and 100 pairs per phenomenon")
+    for row in bad_rows:
+        if not 0 <= float(row["bad_parse_rate"]) <= 1:
+            raise ValueError("BAD parse rates must be between zero and one")
+
+
+def export_figure(path, description, values, *, title=None,
+                  scale=OVERALL_SCALE, bad_rates=None):
+    # Overall panels have no titles: the paper supplies LaTeX subcaptions.
+    top = 36 if title is None else 0
+    width = PANEL_W + 2 if title is None else PANEL_W
+    height = HEIGHT - top
+    details = (
+        'Three-seed mean accuracies across 96 grammatical configurations. '
+        'The green color scale runs from 70 to 100 percent.'
+        if bad_rates is None else
+        'Three-seed mean accuracy in percent, with a green scale of 50--100 percent. '
+        'Values below 50 use white. Orange bar length represents BAD parse rate, '
+        'with a full track corresponding to 100 percent.'
+    )
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" '
+        f'height="{height}" viewBox="0 {top} {width} {height}">',
+        f'<title>{esc(description)}</title>',
+        f'<desc>{details}</desc>',
+        SVG_STYLE,
+        rect(0, top, width, height, fill="#fff"),
+    ]
+    panel(parts, 0, title, values, scale=scale, bad_rates=bad_rates)
+    parts.append('</svg>')
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text('\n'.join(parts), encoding='utf-8')
+    cairosvg.svg2pdf(url=str(path), write_to=str(path.with_suffix('.pdf')))
+    cairosvg.svg2png(url=str(path), write_to=str(path.with_suffix('.png')), scale=1.5)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output-dir', type=Path, default=OUTDIR,
+                        help='Output directory (default: figures/evaluation)')
+    output = parser.parse_args().output_dir
+    rows = read_tsv(MEAN_SCORES)
     bad_rows = read_tsv(BAD_PARSE)
-    bad_rates = bad_parse_lookup(bad_rows)
-    phenomena = read_phenomena_manifest(PHENOMENA_MANIFEST)
+    manifest = read_tsv(PHENOMENA_MANIFEST)
+    validate_data(rows, bad_rows, manifest)
+    bad = bad_parse_lookup(bad_rows)
 
-    write_heatmap(
-        "00_overall_accuracy_heatmap",
-        grouped_values(mean_rows, bad_rates),
-        legend=True,
-        integer_values=False,
-        layout="overall",
-    )
-    write_heatmap(
-        "00_anc_only_accuracy_heatmap",
-        grouped_values(mean_rows, bad_rates, phenomena_prefixes=("4_", "5_", "6_")),
-        legend=True,
-        integer_values=False,
-        layout="overall",
-    )
-    for phenomenon, stem in phenomena:
-        write_heatmap(
-            stem,
-            phenomenon_values(mean_rows, bad_rates, phenomenon),
-            legend=True,
-            integer_values=False,
-            layout="phenomenon",
+    export_figure(output / 'paper_accuracy_overall.svg',
+                  'Accuracy across all 34 phenomena', aggregate(rows))
+    export_figure(output / 'paper_accuracy_anc.svg',
+                  'Accuracy across the 15 ANC-related phenomena',
+                  aggregate(rows, ('4_', '5_', '6_')))
+    for phenomenon in manifest:
+        name = phenomenon['phenomenon']
+        selected = [r for r in rows if r['phenomenon'] == name]
+        values = {key_for(r): float(r['accuracy']) for r in selected}
+        rates = {key_for(r): bad[(name, r['language'])] for r in selected}
+        export_figure(
+            output / 'appendix' / (phenomenon['figure_stem'] + '.svg'),
+            phenomenon['title'], values,
+            title=phenomenon['title'].replace('--', '\u2013'),
+            scale=PHENOMENON_SCALE, bad_rates=rates,
         )
+    print(f'Exported 2 overview panels and {len(manifest)} appendix figures '
+          f'(PDF, SVG, PNG) to {output}')
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()

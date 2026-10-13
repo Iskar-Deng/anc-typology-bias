@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="742" height="486" viewBox="0 36 742 486">
+<title>Accuracy across all 34 phenomena</title>
+<desc>Three-seed mean accuracies across 96 grammatical configurations. The green color scale runs from 70 to 100 percent.</desc>
+<defs><style>text{font-family:"Liberation Serif","Times New Roman",serif}.title{font-size:26px;font-weight:bold}.group{font-size:23px}.strategy{font-size:21px}.row{font-size:22px}.alignment{font-size:23px}.number{font-size:23px;font-weight:bold}</style></defs>
+<rect x="0" y="36" width="742" height="486" fill="#fff"/>
+<g transform="translate(0,0)">
+<text class="group" x="284" y="57" text-anchor="middle">Balancing</text>
+<rect x="135" y="64" width="298" height="0.8" fill="#888"/>
+<text class="strategy" x="170" y="94" text-anchor="middle">SENT</text>
+<text class="strategy" x="246" y="84" text-anchor="middle">POSS-</text>
+<text class="strategy" x="246" y="103" text-anchor="middle">ACC</text>
+<text class="strategy" x="322" y="84" text-anchor="middle">ERG-</text>
+<text class="strategy" x="322" y="103" text-anchor="middle">POSS</text>
+<text class="strategy" x="398" y="94" text-anchor="middle">NOMN</text>
+<text class="group" x="588" y="57" text-anchor="middle">Deranking</text>
+<rect x="439" y="64" width="298" height="0.8" fill="#888"/>
+<text class="strategy" x="474" y="94" text-anchor="middle">SENT</text>
+<text class="strategy" x="550" y="84" text-anchor="middle">POSS-</text>
+<text class="strategy" x="550" y="103" text-anchor="middle">ACC</text>
+<text class="strategy" x="626" y="84" text-anchor="middle">ERG-</text>
+<text class="strategy" x="626" y="103" text-anchor="middle">POSS</text>
+<text class="strategy" x="702" y="94" text-anchor="middle">NOMN</text>
+<g transform="translate(19,210) rotate(-90)"><text class="alignment" x="0" y="0" text-anchor="middle">NOM-ACC</text></g>
+<text class="row" x="124" y="132" text-anchor="end">SOV/GN</text>
+<rect x="132" y="108" width="76" height="34" fill="#9fc6ad" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="132" text-anchor="middle" fill="#111">82.8</text>
+<rect x="208" y="108" width="76" height="34" fill="#78af8b" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="132" text-anchor="middle" fill="#fff">88.0</text>
+<rect x="284" y="108" width="76" height="34" fill="#78af8b" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="132" text-anchor="middle" fill="#fff">88.1</text>
+<rect x="360" y="108" width="76" height="34" fill="#6da881" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="132" text-anchor="middle" fill="#fff">89.5</text>
+<rect x="436" y="108" width="76" height="34" fill="#92bea1" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="132" text-anchor="middle" fill="#111">84.6</text>
+<rect x="512" y="108" width="76" height="34" fill="#6da881" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="132" text-anchor="middle" fill="#fff">89.6</text>
+<rect x="588" y="108" width="76" height="34" fill="#70aa84" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="132" text-anchor="middle" fill="#fff">89.1</text>
+<rect x="664" y="108" width="76" height="34" fill="#60a176" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="132" text-anchor="middle" fill="#fff">91.3</text>
+<text class="row" x="124" y="166" text-anchor="end">SOV/NG</text>
+<rect x="132" y="142" width="76" height="34" fill="#b6d4c0" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="166" text-anchor="middle" fill="#111">79.8</text>
+<rect x="208" y="142" width="76" height="34" fill="#8fbc9e" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="166" text-anchor="middle" fill="#111">85.0</text>
+<rect x="284" y="142" width="76" height="34" fill="#77ae8a" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="166" text-anchor="middle" fill="#fff">88.2</text>
+<rect x="360" y="142" width="76" height="34" fill="#77ae8a" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="166" text-anchor="middle" fill="#fff">88.2</text>
+<rect x="436" y="142" width="76" height="34" fill="#9ec5ab" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="166" text-anchor="middle" fill="#111">83.0</text>
+<rect x="512" y="142" width="76" height="34" fill="#86b797" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="166" text-anchor="middle" fill="#fff">86.1</text>
+<rect x="588" y="142" width="76" height="34" fill="#6ca880" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="166" text-anchor="middle" fill="#fff">89.7</text>
+<rect x="664" y="142" width="76" height="34" fill="#73ac86" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="166" text-anchor="middle" fill="#fff">88.8</text>
+<text class="row" x="124" y="200" text-anchor="end">SVO/GN</text>
+<rect x="132" y="176" width="76" height="34" fill="#72ab86" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="200" text-anchor="middle" fill="#fff">88.9</text>
+<rect x="208" y="176" width="76" height="34" fill="#44905e" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="200" text-anchor="middle" fill="#fff">95.0</text>
+<rect x="284" y="176" width="76" height="34" fill="#3d8c58" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="200" text-anchor="middle" fill="#fff">96.0</text>
+<rect x="360" y="176" width="76" height="34" fill="#3f8d59" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="200" text-anchor="middle" fill="#fff">95.7</text>
+<rect x="436" y="176" width="76" height="34" fill="#6da881" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="200" text-anchor="middle" fill="#fff">89.6</text>
+<rect x="512" y="176" width="76" height="34" fill="#489261" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="200" text-anchor="middle" fill="#fff">94.5</text>
+<rect x="588" y="176" width="76" height="34" fill="#479261" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="200" text-anchor="middle" fill="#fff">94.6</text>
+<rect x="664" y="176" width="76" height="34" fill="#489262" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="200" text-anchor="middle" fill="#fff">94.5</text>
+<text class="row" x="124" y="234" text-anchor="end">SVO/NG</text>
+<rect x="132" y="210" width="76" height="34" fill="#5d9f74" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="234" text-anchor="middle" fill="#fff">91.6</text>
+<rect x="208" y="210" width="76" height="34" fill="#479260" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="234" text-anchor="middle" fill="#fff">94.7</text>
+<rect x="284" y="210" width="76" height="34" fill="#378853" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="234" text-anchor="middle" fill="#fff">96.8</text>
+<rect x="360" y="210" width="76" height="34" fill="#388953" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="234" text-anchor="middle" fill="#fff">96.7</text>
+<rect x="436" y="210" width="76" height="34" fill="#61a177" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="234" text-anchor="middle" fill="#fff">91.2</text>
+<rect x="512" y="210" width="76" height="34" fill="#4d9566" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="234" text-anchor="middle" fill="#fff">93.8</text>
+<rect x="588" y="210" width="76" height="34" fill="#418e5b" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="234" text-anchor="middle" fill="#fff">95.5</text>
+<rect x="664" y="210" width="76" height="34" fill="#3e8d59" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="234" text-anchor="middle" fill="#fff">95.8</text>
+<text class="row" x="124" y="268" text-anchor="end">VOS/GN</text>
+<rect x="132" y="244" width="76" height="34" fill="#c3dbcb" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="268" text-anchor="middle" fill="#111">78.0</text>
+<rect x="208" y="244" width="76" height="34" fill="#95c0a3" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="268" text-anchor="middle" fill="#111">84.2</text>
+<rect x="284" y="244" width="76" height="34" fill="#67a57c" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="268" text-anchor="middle" fill="#fff">90.3</text>
+<rect x="360" y="244" width="76" height="34" fill="#7bb18d" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="268" text-anchor="middle" fill="#fff">87.7</text>
+<rect x="436" y="244" width="76" height="34" fill="#97c1a5" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="268" text-anchor="middle" fill="#111">84.0</text>
+<rect x="512" y="244" width="76" height="34" fill="#77ae89" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="268" text-anchor="middle" fill="#fff">88.3</text>
+<rect x="588" y="244" width="76" height="34" fill="#5a9d71" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="268" text-anchor="middle" fill="#fff">92.1</text>
+<rect x="664" y="244" width="76" height="34" fill="#6da881" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="268" text-anchor="middle" fill="#fff">89.6</text>
+<text class="row" x="124" y="302" text-anchor="end">VOS/NG</text>
+<rect x="132" y="278" width="76" height="34" fill="#cfe2d5" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="302" text-anchor="middle" fill="#111">76.5</text>
+<rect x="208" y="278" width="76" height="34" fill="#a0c7ae" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="302" text-anchor="middle" fill="#111">82.7</text>
+<rect x="284" y="278" width="76" height="34" fill="#86b797" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="302" text-anchor="middle" fill="#fff">86.2</text>
+<rect x="360" y="278" width="76" height="34" fill="#88b898" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="302" text-anchor="middle" fill="#fff">86.0</text>
+<rect x="436" y="278" width="76" height="34" fill="#99c2a7" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="302" text-anchor="middle" fill="#111">83.7</text>
+<rect x="512" y="278" width="76" height="34" fill="#6ba77f" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="302" text-anchor="middle" fill="#fff">89.8</text>
+<rect x="588" y="278" width="76" height="34" fill="#6ea982" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="302" text-anchor="middle" fill="#fff">89.4</text>
+<rect x="664" y="278" width="76" height="34" fill="#65a47b" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="302" text-anchor="middle" fill="#fff">90.6</text>
+<g transform="translate(19,414) rotate(-90)"><text class="alignment" x="0" y="0" text-anchor="middle">ERG-ABS</text></g>
+<text class="row" x="124" y="336" text-anchor="end">SOV/GN</text>
+<rect x="132" y="312" width="76" height="34" fill="#95c0a4" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="336" text-anchor="middle" fill="#111">84.2</text>
+<rect x="208" y="312" width="76" height="34" fill="#9ac3a8" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="336" text-anchor="middle" fill="#111">83.6</text>
+<rect x="284" y="312" width="76" height="34" fill="#89b99a" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="336" text-anchor="middle" fill="#111">85.8</text>
+<rect x="360" y="312" width="76" height="34" fill="#7cb28f" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="336" text-anchor="middle" fill="#fff">87.5</text>
+<rect x="436" y="312" width="76" height="34" fill="#65a47a" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="336" text-anchor="middle" fill="#fff">90.6</text>
+<rect x="512" y="312" width="76" height="34" fill="#87b897" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="336" text-anchor="middle" fill="#fff">86.1</text>
+<rect x="588" y="312" width="76" height="34" fill="#7fb391" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="336" text-anchor="middle" fill="#fff">87.2</text>
+<rect x="664" y="312" width="76" height="34" fill="#74ad87" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="336" text-anchor="middle" fill="#fff">88.6</text>
+<text class="row" x="124" y="370" text-anchor="end">SOV/NG</text>
+<rect x="132" y="346" width="76" height="34" fill="#b8d5c2" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="370" text-anchor="middle" fill="#111">79.5</text>
+<rect x="208" y="346" width="76" height="34" fill="#aacdb6" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="370" text-anchor="middle" fill="#111">81.4</text>
+<rect x="284" y="346" width="76" height="34" fill="#aecfba" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="370" text-anchor="middle" fill="#111">80.8</text>
+<rect x="360" y="346" width="76" height="34" fill="#98c2a6" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="370" text-anchor="middle" fill="#111">83.8</text>
+<rect x="436" y="346" width="76" height="34" fill="#88b898" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="370" text-anchor="middle" fill="#fff">85.9</text>
+<rect x="512" y="346" width="76" height="34" fill="#a5c9b1" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="370" text-anchor="middle" fill="#111">82.1</text>
+<rect x="588" y="346" width="76" height="34" fill="#aaccb5" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="370" text-anchor="middle" fill="#111">81.4</text>
+<rect x="664" y="346" width="76" height="34" fill="#8ebc9e" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="370" text-anchor="middle" fill="#111">85.1</text>
+<text class="row" x="124" y="404" text-anchor="end">SVO/GN</text>
+<rect x="132" y="380" width="76" height="34" fill="#82b593" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="404" text-anchor="middle" fill="#fff">86.7</text>
+<rect x="208" y="380" width="76" height="34" fill="#61a177" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="404" text-anchor="middle" fill="#fff">91.2</text>
+<rect x="284" y="380" width="76" height="34" fill="#5d9f73" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="404" text-anchor="middle" fill="#fff">91.7</text>
+<rect x="360" y="380" width="76" height="34" fill="#599c70" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="404" text-anchor="middle" fill="#fff">92.3</text>
+<rect x="436" y="380" width="76" height="34" fill="#69a67e" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="404" text-anchor="middle" fill="#fff">90.1</text>
+<rect x="512" y="380" width="76" height="34" fill="#7cb18e" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="404" text-anchor="middle" fill="#fff">87.5</text>
+<rect x="588" y="380" width="76" height="34" fill="#6ea982" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="404" text-anchor="middle" fill="#fff">89.4</text>
+<rect x="664" y="380" width="76" height="34" fill="#6ca880" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="404" text-anchor="middle" fill="#fff">89.7</text>
+<text class="row" x="124" y="438" text-anchor="end">SVO/NG</text>
+<rect x="132" y="414" width="76" height="34" fill="#89b999" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="438" text-anchor="middle" fill="#111">85.8</text>
+<rect x="208" y="414" width="76" height="34" fill="#73ac86" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="438" text-anchor="middle" fill="#fff">88.7</text>
+<rect x="284" y="414" width="76" height="34" fill="#589c6f" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="438" text-anchor="middle" fill="#fff">92.3</text>
+<rect x="360" y="414" width="76" height="34" fill="#4e9666" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="438" text-anchor="middle" fill="#fff">93.7</text>
+<rect x="436" y="414" width="76" height="34" fill="#76ad89" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="438" text-anchor="middle" fill="#fff">88.4</text>
+<rect x="512" y="414" width="76" height="34" fill="#82b594" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="438" text-anchor="middle" fill="#fff">86.7</text>
+<rect x="588" y="414" width="76" height="34" fill="#90bda0" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="438" text-anchor="middle" fill="#111">84.8</text>
+<rect x="664" y="414" width="76" height="34" fill="#6ba77f" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="438" text-anchor="middle" fill="#fff">89.8</text>
+<text class="row" x="124" y="472" text-anchor="end">VOS/GN</text>
+<rect x="132" y="448" width="76" height="34" fill="#9dc5aa" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="472" text-anchor="middle" fill="#111">83.2</text>
+<rect x="208" y="448" width="76" height="34" fill="#81b493" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="472" text-anchor="middle" fill="#fff">86.8</text>
+<rect x="284" y="448" width="76" height="34" fill="#68a57d" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="472" text-anchor="middle" fill="#fff">90.3</text>
+<rect x="360" y="448" width="76" height="34" fill="#65a37a" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="472" text-anchor="middle" fill="#fff">90.6</text>
+<rect x="436" y="448" width="76" height="34" fill="#5a9d71" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="472" text-anchor="middle" fill="#fff">92.1</text>
+<rect x="512" y="448" width="76" height="34" fill="#69a67d" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="472" text-anchor="middle" fill="#fff">90.1</text>
+<rect x="588" y="448" width="76" height="34" fill="#61a177" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="472" text-anchor="middle" fill="#fff">91.1</text>
+<rect x="664" y="448" width="76" height="34" fill="#61a177" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="472" text-anchor="middle" fill="#fff">91.2</text>
+<text class="row" x="124" y="506" text-anchor="end">VOS/NG</text>
+<rect x="132" y="482" width="76" height="34" fill="#99c2a7" stroke="#fff" stroke-width="1"/>
+<text class="number" x="170" y="506" text-anchor="middle" fill="#111">83.6</text>
+<rect x="208" y="482" width="76" height="34" fill="#88b898" stroke="#fff" stroke-width="1"/>
+<text class="number" x="246" y="506" text-anchor="middle" fill="#fff">86.0</text>
+<rect x="284" y="482" width="76" height="34" fill="#7ab08d" stroke="#fff" stroke-width="1"/>
+<text class="number" x="322" y="506" text-anchor="middle" fill="#fff">87.8</text>
+<rect x="360" y="482" width="76" height="34" fill="#65a37a" stroke="#fff" stroke-width="1"/>
+<text class="number" x="398" y="506" text-anchor="middle" fill="#fff">90.7</text>
+<rect x="436" y="482" width="76" height="34" fill="#559a6d" stroke="#fff" stroke-width="1"/>
+<text class="number" x="474" y="506" text-anchor="middle" fill="#fff">92.7</text>
+<rect x="512" y="482" width="76" height="34" fill="#72ab86" stroke="#fff" stroke-width="1"/>
+<text class="number" x="550" y="506" text-anchor="middle" fill="#fff">88.9</text>
+<rect x="588" y="482" width="76" height="34" fill="#73ac86" stroke="#fff" stroke-width="1"/>
+<text class="number" x="626" y="506" text-anchor="middle" fill="#fff">88.8</text>
+<rect x="664" y="482" width="76" height="34" fill="#64a379" stroke="#fff" stroke-width="1"/>
+<text class="number" x="702" y="506" text-anchor="middle" fill="#fff">90.8</text>
+<rect x="132" y="108" width="608" height="408" fill="none" stroke="#555" stroke-width="0.8"/>
+<rect x="132" y="311" width="608" height="2" fill="#555"/>
+<rect x="435" y="108" width="2" height="408" fill="#555"/>
+</g>
+</svg>

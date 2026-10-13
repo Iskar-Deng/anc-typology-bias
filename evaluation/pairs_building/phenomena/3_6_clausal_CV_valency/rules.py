@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 # evaluation/pairs_building/phenomena/3_6_clausal_CV_valency/rules.py
 
 """
@@ -37,34 +34,16 @@ SHAPES = expand_clausal_templates(TEMPLATES)
 
 
 def stem_from_finite(token: str) -> str | None:
+    """Remove the synthetic finite suffix without English spelling changes."""
     lower = token.lower()
-    for suffix in ("ca", "ge"):
-        if lower.endswith(suffix):
-            return None
-    if lower.endswith("ies") and len(lower) > 3:
-        return lower[:-3] + "y"
-    if lower.endswith("es") and len(lower) > 2:
-        base = lower[:-2]
-        if base.endswith(("s", "sh", "ch", "x", "z", "o")):
-            return base
     if lower.endswith("s") and len(lower) > 1:
         return lower[:-1]
     return None
 
 
 def finite_from_stem(stem: str, model_token: str) -> str:
-    if stem == "say":
-        out = "says"
-    elif stem == "have":
-        out = "has"
-    elif stem == "do":
-        out = "does"
-    elif stem.endswith("y") and len(stem) > 1 and stem[-2] not in "aeiou":
-        out = stem[:-1] + "ies"
-    elif stem.endswith(("s", "sh", "ch", "x", "z", "o")):
-        out = stem + "es"
-    else:
-        out = stem + "s"
+    """Attach the synthetic finite suffix directly to the stem."""
+    out = stem + "s"
 
     if model_token and model_token[0].isupper():
         return out.capitalize()
